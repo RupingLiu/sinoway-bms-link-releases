@@ -9,8 +9,8 @@
       "versionCode": 3,
       "displayVersion": "1.0.0+3",
       "releaseTag": "android-v1.0.0+3",
-      "apkFileName": "sinoway-bms-link-android-v1.0.0+3.apk",
-      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B3/sinoway-bms-link-android-v1.0.0+3.apk",
+      "apkFileName": "sinoway-bms-link-android-v1.0.0%2B3.apk",
+      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B3/sinoway-bms-link-android-v1.0.0%2B3.apk",
       "sha256": "511d2ad9771af4dd0ea0359caad25dfb4ae999d1b89dac2606d40911dec8b6f2",
       "sizeBytes": 19328624,
       "minAndroidSdk": 23,
@@ -40,3 +40,4 @@
     }
   }
 }
+
