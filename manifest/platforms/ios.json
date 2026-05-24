@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "platform": "ios",
+  "status": "reserved",
+  "message": {
+    "zh-Hans": "iOS 版本将在 TestFlight 或 App Store 接入后开放。",
+    "zh-Hant": "iOS 版本將在 TestFlight 或 App Store 接入後開放。",
+    "en": "iOS releases will be available after TestFlight or App Store integration."
+  }
+}

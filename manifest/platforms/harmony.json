@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "platform": "harmony",
+  "status": "reserved",
+  "message": {
+    "zh-Hans": "鸿蒙版本将在后续适配完成后开放。",
+    "zh-Hant": "鴻蒙版本將在後續適配完成後開放。",
+    "en": "HarmonyOS releases will be available after platform adaptation."
+  }
+}
