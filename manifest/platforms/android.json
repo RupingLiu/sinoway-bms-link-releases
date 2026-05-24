@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-24T00:00:00+08:00",
+  "generatedAt": "2026-05-25T00:00:00+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
       "versionName": "1.0.0",
-      "versionCode": 2,
-      "displayVersion": "1.0.0+2",
-      "releaseTag": "android-v1.0.0+2",
-      "apkFileName": "sinoway-bms-link-android-v1.0.0+2.apk",
-      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B2/sinoway-bms-link-android-v1.0.0%2B2.apk",
-      "sha256": "2f6a43ebbe4a5a666f275d503536741e554b82304cfa16b8ac378ffbb316e489",
-      "sizeBytes": 19262924,
+      "versionCode": 3,
+      "displayVersion": "1.0.0+3",
+      "releaseTag": "android-v1.0.0+3",
+      "apkFileName": "sinoway-bms-link-android-v1.0.0+3.apk",
+      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B3/sinoway-bms-link-android-v1.0.0+3.apk",
+      "sha256": "511d2ad9771af4dd0ea0359caad25dfb4ae999d1b89dac2606d40911dec8b6f2",
+      "sizeBytes": 19328624,
       "minAndroidSdk": 23,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "首次 GitHub 内部分发版本。",
-        "zh-Hant": "首次 GitHub 內部分發版本。",
-        "en": "First GitHub internal distribution build."
+        "zh-Hans": "修复 GitHub/internal 发布包未启用演示账号，内置测试账号现在可登录。",
+        "zh-Hant": "修復 GitHub/internal 發布包未啟用演示帳號，內建測試帳號現在可登入。",
+        "en": "Fix demo account login for the GitHub/internal release build."
       }
     },
     "ios": {
