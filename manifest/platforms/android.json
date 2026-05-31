@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-25T00:00:00+08:00",
+  "generatedAt": "2026-05-31T23:23:09+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
       "versionName": "1.0.0",
-      "versionCode": 3,
-      "displayVersion": "1.0.0+3",
-      "releaseTag": "android-v1.0.0+3",
-      "apkFileName": "sinoway-bms-link-android-v1.0.0+3.apk",
-      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B3/sinoway-bms-link-android-v1.0.0%2B3.apk",
-      "sha256": "511d2ad9771af4dd0ea0359caad25dfb4ae999d1b89dac2606d40911dec8b6f2",
-      "sizeBytes": 19328624,
+      "versionCode": 4,
+      "displayVersion": "1.0.0+4",
+      "releaseTag": "android-v1.0.0+4",
+      "apkFileName": "sinoway-bms-link-android-v1.0.0+4.apk",
+      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B4/sinoway-bms-link-android-v1.0.0%2B4.apk",
+      "sha256": "df526c236d0ab6da5343efa99d3464c647f75dc91dc66af6fbe1870738fa4c64",
+      "sizeBytes": 18763118,
       "minAndroidSdk": 23,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复 GitHub/internal 发布包未启用演示账号，内置测试账号现在可登录。",
-        "zh-Hant": "修復 GitHub/internal 發布包未啟用演示帳號，內建測試帳號現在可登入。",
-        "en": "Fix demo account login for the GitHub/internal release build."
+        "zh-Hans": "修复真机更新检查偶发异常，新增更新下载超时保护；移除触发 Flutter 未来版本兼容性警告的插件依赖；优化总览页小屏显示。",
+        "zh-Hant": "修復真機更新檢查偶發異常，新增更新下載逾時保護；移除觸發 Flutter 未來版本相容性警告的外掛依賴；優化總覽頁小螢幕顯示。",
+        "en": "Fix intermittent real-device update check failures, add download timeout protection, remove plugin dependencies that triggered future Flutter compatibility warnings, and improve overview layout on small screens."
       }
     },
     "ios": {
@@ -40,5 +40,3 @@
     }
   }
 }
-
-
