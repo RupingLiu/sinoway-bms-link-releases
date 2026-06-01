@@ -21,22 +21,6 @@
         "zh-Hant": "設定頁語言選項改為下拉控制項；總覽設備列表顯示在線/離線狀態並支援在線/離線篩選；設備詳情介面增加逾時和參數資料失敗降級，避免子頁面長時間停留在正在載入。",
         "en": "Change the language setting to a dropdown, show online/offline state with filters in the Overview device list, and add cloud API timeouts plus parameter-data fallback so device detail tabs do not stay on Loading."
       }
-    },
-    "ios": {
-      "status": "reserved",
-      "message": {
-        "zh-Hans": "iOS 版本将在 TestFlight 或 App Store 接入后开放。",
-        "zh-Hant": "iOS 版本將在 TestFlight 或 App Store 接入後開放。",
-        "en": "iOS releases will be available after TestFlight or App Store integration."
-      }
-    },
-    "harmony": {
-      "status": "reserved",
-      "message": {
-        "zh-Hans": "鸿蒙版本将在后续适配完成后开放。",
-        "zh-Hant": "鴻蒙版本將在後續適配完成後開放。",
-        "en": "HarmonyOS releases will be available after platform adaptation."
-      }
     }
   }
 }
