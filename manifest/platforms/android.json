@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-01T19:01:18+08:00",
+  "generatedAt": "2026-06-01T19:41:35+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.0.2",
-      "versionCode": 10,
-      "displayVersion": "1.0.2+10",
-      "releaseTag": "android-v1.0.2+10",
-      "apkFileName": "sinoway-bms-link-android-v1.0.2+10.apk",
-      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.2%2B10/sinoway-bms-link-android-v1.0.2%2B10.apk",
-      "sha256": "aed74b45f466940339e52d89de94835a4215509213f4e94e67e12fd3a61f461f",
+      "versionName": "1.0.3",
+      "versionCode": 11,
+      "displayVersion": "1.0.3+11",
+      "releaseTag": "android-v1.0.3+11",
+      "apkFileName": "sinoway-bms-link-android-v1.0.3+11.apk",
+      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.3%2B11/sinoway-bms-link-android-v1.0.3%2B11.apk",
+      "sha256": "2c936898d85bad0d58ef587955110edec59fe11eb4305dd0cadadd49bce5eaf0",
       "sizeBytes": 19471778,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复设备详情单体页布局，统计信息、单体电压和单体温度改为紧凑栅格展示；地图页展示云平台定位点、在线状态、坐标和地图署名，下调默认缩放，压缩设备信息卡片，并使用 OpenStreetMap 无标注瓦片避免中英混排；增强 Android 系统安装器唤起兼容性。",
-        "zh-Hant": "修復設備詳情單體頁布局，統計資訊、單體電壓和單體溫度改為緊湊格狀展示；地圖頁展示雲平台定位點、在線狀態、座標和地圖署名，下調預設縮放，壓縮設備資訊卡片，並使用 OpenStreetMap 無標注瓦片避免中英混排；增強 Android 系統安裝器啟動相容性。",
-        "en": "Fix the device detail cell tab with compact grids for summary, cell voltages, and cell temperatures. The map page now shows cloud location points, online state, coordinates, and attribution, uses a wider default zoom, compact device panels, and OpenStreetMap no-label tiles to avoid mixed-language labels. Android installer handoff compatibility is hardened."
+        "zh-Hans": "修复地图页底图显示问题：默认使用 OpenStreetMap Japan 中文标注瓦片，并保留 OpenStreetMap 官方瓦片兜底；定位点、在线状态和紧凑设备卡片已在真机验证，不使用高德地图。",
+        "zh-Hant": "修復地圖頁底圖顯示問題：預設使用 OpenStreetMap Japan 中文標注瓦片，並保留 OpenStreetMap 官方瓦片備援；定位點、在線狀態和緊湊設備卡片已在真機驗證，不使用高德地圖。",
+        "en": "Fix map base tile rendering by defaulting to OpenStreetMap Japan Chinese-label tiles with official OpenStreetMap tiles as fallback. Location markers, online status, and compact device cards were verified on a real device. Gaode Maps is not used."
       }
     },
     "ios": {

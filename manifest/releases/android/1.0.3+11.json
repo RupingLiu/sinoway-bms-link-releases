@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-01T19:41:35+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.0.3",
+  "versionCode": 11,
+  "displayVersion": "1.0.3+11",
+  "releaseTag": "android-v1.0.3+11",
+  "apkFileName": "sinoway-bms-link-android-v1.0.3+11.apk",
+  "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.3%2B11/sinoway-bms-link-android-v1.0.3%2B11.apk",
+  "sha256": "2c936898d85bad0d58ef587955110edec59fe11eb4305dd0cadadd49bce5eaf0",
+  "sizeBytes": 19471778,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "修复地图页底图显示问题：默认使用 OpenStreetMap Japan 中文标注瓦片，并保留 OpenStreetMap 官方瓦片兜底；定位点、在线状态和紧凑设备卡片已在真机验证，不使用高德地图。",
+    "zh-Hant": "修復地圖頁底圖顯示問題：預設使用 OpenStreetMap Japan 中文標注瓦片，並保留 OpenStreetMap 官方瓦片備援；定位點、在線狀態和緊湊設備卡片已在真機驗證，不使用高德地圖。",
+    "en": "Fix map base tile rendering by defaulting to OpenStreetMap Japan Chinese-label tiles with official OpenStreetMap tiles as fallback. Location markers, online status, and compact device cards were verified on a real device. Gaode Maps is not used."
+  }
+}
