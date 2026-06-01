@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-01T18:45:34+08:00",
+  "generatedAt": "2026-06-01T19:01:18+08:00",
   "platforms": {
     "android": {
       "status": "available",
@@ -11,15 +11,15 @@
       "releaseTag": "android-v1.0.2+10",
       "apkFileName": "sinoway-bms-link-android-v1.0.2+10.apk",
       "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.2%2B10/sinoway-bms-link-android-v1.0.2%2B10.apk",
-      "sha256": "19ccd08872be20f063405b512aaef86496887c7c3a639531048781842e16a80a",
+      "sha256": "aed74b45f466940339e52d89de94835a4215509213f4e94e67e12fd3a61f461f",
       "sizeBytes": 19471778,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复设备详情单体页布局，统计信息、单体电压和单体温度改为紧凑栅格展示；地图页展示云平台定位点、在线状态、坐标和地图署名，下调默认缩放，压缩设备信息卡片，并使用 OpenStreetMap 无标注瓦片避免中英混排。",
-        "zh-Hant": "修復設備詳情單體頁布局，統計資訊、單體電壓和單體溫度改為緊湊格狀展示；地圖頁展示雲平台定位點、在線狀態、座標和地圖署名，下調預設縮放，壓縮設備資訊卡片，並使用 OpenStreetMap 無標注瓦片避免中英混排。",
-        "en": "Fix the device detail cell tab with compact grids for summary, cell voltages, and cell temperatures. The map page now shows cloud location points, online state, coordinates, and attribution, uses a wider default zoom, compact device panels, and OpenStreetMap no-label tiles to avoid mixed-language labels."
+        "zh-Hans": "修复设备详情单体页布局，统计信息、单体电压和单体温度改为紧凑栅格展示；地图页展示云平台定位点、在线状态、坐标和地图署名，下调默认缩放，压缩设备信息卡片，并使用 OpenStreetMap 无标注瓦片避免中英混排；增强 Android 系统安装器唤起兼容性。",
+        "zh-Hant": "修復設備詳情單體頁布局，統計資訊、單體電壓和單體溫度改為緊湊格狀展示；地圖頁展示雲平台定位點、在線狀態、座標和地圖署名，下調預設縮放，壓縮設備資訊卡片，並使用 OpenStreetMap 無標注瓦片避免中英混排；增強 Android 系統安裝器啟動相容性。",
+        "en": "Fix the device detail cell tab with compact grids for summary, cell voltages, and cell temperatures. The map page now shows cloud location points, online state, coordinates, and attribution, uses a wider default zoom, compact device panels, and OpenStreetMap no-label tiles to avoid mixed-language labels. Android installer handoff compatibility is hardened."
       }
     },
     "ios": {
