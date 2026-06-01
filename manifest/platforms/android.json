@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-31T23:23:09+08:00",
+  "generatedAt": "2026-06-01T14:13:33+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
       "versionName": "1.0.0",
-      "versionCode": 4,
-      "displayVersion": "1.0.0+4",
-      "releaseTag": "android-v1.0.0+4",
-      "apkFileName": "sinoway-bms-link-android-v1.0.0+4.apk",
-      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B4/sinoway-bms-link-android-v1.0.0%2B4.apk",
-      "sha256": "df526c236d0ab6da5343efa99d3464c647f75dc91dc66af6fbe1870738fa4c64",
-      "sizeBytes": 18763118,
-      "minAndroidSdk": 23,
+      "versionCode": 6,
+      "displayVersion": "1.0.0+6",
+      "releaseTag": "android-v1.0.0+6",
+      "apkFileName": "sinoway-bms-link-android-v1.0.0+6.apk",
+      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B6/sinoway-bms-link-android-v1.0.0%2B6.apk",
+      "sha256": "cf4c49e2728f70555ec01212a988e686614a911c114b731d931c368f3cbbdf79",
+      "sizeBytes": 18750566,
+      "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复真机更新检查偶发异常，新增更新下载超时保护；移除触发 Flutter 未来版本兼容性警告的插件依赖；优化总览页小屏显示。",
-        "zh-Hant": "修復真機更新檢查偶發異常，新增更新下載逾時保護；移除觸發 Flutter 未來版本相容性警告的外掛依賴；優化總覽頁小螢幕顯示。",
-        "en": "Fix intermittent real-device update check failures, add download timeout protection, remove plugin dependencies that triggered future Flutter compatibility warnings, and improve overview layout on small screens."
+        "zh-Hans": "接入云平台 App 账号登录接口，默认使用 bms.snw-dynamics.com；启动后自动检查并下载 internal APK 更新包，下载完成后由用户手动确认安装；同步删除旧协议和模拟分发口径。",
+        "zh-Hant": "接入雲平台 App 帳號登入介面，預設使用 bms.snw-dynamics.com；啟動後自動檢查並下載 internal APK 更新包，下載完成後由使用者手動確認安裝；同步刪除舊協議和模擬分發口徑。",
+        "en": "Connect the app account login flow to the cloud platform, default to bms.snw-dynamics.com, automatically check and download internal APK updates on startup, require user confirmation for installation, and remove old protocol and simulation distribution wording."
       }
     },
     "ios": {

@@ -21,22 +21,6 @@
         "zh-Hant": "接入雲平台 App 帳號登入介面，預設使用 bms.snw-dynamics.com；啟動後自動檢查並下載 internal APK 更新包，下載完成後由使用者手動確認安裝；同步刪除舊協議和模擬分發口徑。",
         "en": "Connect the app account login flow to the cloud platform, default to bms.snw-dynamics.com, automatically check and download internal APK updates on startup, require user confirmation for installation, and remove old protocol and simulation distribution wording."
       }
-    },
-    "ios": {
-      "status": "reserved",
-      "message": {
-        "zh-Hans": "iOS 版本将在 TestFlight 或 App Store 接入后开放。",
-        "zh-Hant": "iOS 版本將在 TestFlight 或 App Store 接入後開放。",
-        "en": "iOS releases will be available after TestFlight or App Store integration."
-      }
-    },
-    "harmony": {
-      "status": "reserved",
-      "message": {
-        "zh-Hans": "鸿蒙版本将在后续适配完成后开放。",
-        "zh-Hant": "鴻蒙版本將在後續適配完成後開放。",
-        "en": "HarmonyOS releases will be available after platform adaptation."
-      }
     }
   }
 }
