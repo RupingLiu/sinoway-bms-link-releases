@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-01T15:26:35+08:00",
+  "generatedAt": "2026-06-01T16:42:16+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
       "versionName": "1.0.0",
-      "versionCode": 7,
-      "displayVersion": "1.0.0+7",
-      "releaseTag": "android-v1.0.0+7",
-      "apkFileName": "sinoway-bms-link-android-v1.0.0+7.apk",
-      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B7/sinoway-bms-link-android-v1.0.0%2B7.apk",
-      "sha256": "96b5c844393bf1f12464798aa86b43c2eec607b4e3d90dc306a9b810f52d0308",
-      "sizeBytes": 18947514,
+      "versionCode": 8,
+      "displayVersion": "1.0.0+8",
+      "releaseTag": "android-v1.0.0+8",
+      "apkFileName": "sinoway-bms-link-android-v1.0.0+8.apk",
+      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B8/sinoway-bms-link-android-v1.0.0%2B8.apk",
+      "sha256": "024bfd1e2c238ff6399df5ad2b4107576770fddddedd13c3efc8747e7b20fe45",
+      "sizeBytes": 18947518,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "设置页语言选项改为下拉控件；总览设备列表显示在线/离线状态并支持在线/离线筛选；设备详情接口增加超时和参数数据失败降级，避免子页面长期停留在正在加载。",
-        "zh-Hant": "設定頁語言選項改為下拉控制項；總覽設備列表顯示在線/離線狀態並支援在線/離線篩選；設備詳情介面增加逾時和參數資料失敗降級，避免子頁面長時間停留在正在載入。",
-        "en": "Change the language setting to a dropdown, show online/offline state with filters in the Overview device list, and add cloud API timeouts plus parameter-data fallback so device detail tabs do not stay on Loading."
+        "zh-Hans": "修复云平台设备详情数据映射：优先解析设备详情内嵌 parameterData，正确显示总电压、电流、最高/最低温度、单体电压和单体温度；定位页在轨迹接口不可用时回退到最新定位点。",
+        "zh-Hant": "修復雲平台設備詳情資料映射：優先解析設備詳情內嵌 parameterData，正確顯示總電壓、電流、最高/最低溫度、單體電壓和單體溫度；定位頁在軌跡介面不可用時回退到最新定位點。",
+        "en": "Fix cloud device detail data mapping by parsing embedded parameterData first, restoring total voltage, current, max/min temperatures, cell voltages, and cell temperatures. The location tab now falls back to the latest GPS point when track data is unavailable."
       }
     },
     "ios": {
