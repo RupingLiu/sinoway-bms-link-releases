@@ -19,22 +19,22 @@
 
 ### App 内更新
 
-internal/GitHub 构建可在“我的 > 检查更新”中手动检查新版本。应用商店构建不会从本仓库下载 APK。
+internal/GitHub 构建启动后会自动检查并下载可用 APK 更新包；用户仍需在“我的 > 检查更新”中点击“安装更新包”并确认系统安装器。应用商店构建不会从本仓库下载 APK。
 
 ### 版本规则
 
-版本号使用 `x.y.z+build`：
+版本号使用 `x.y.z+build`。`x.y.z` 是产品语义版本，`+build` 只是安装包构建号：
 
 - `x`：重大架构变化或产品方向上的破坏性调整。
 - `y`：用户可见的功能新增。
-- `z`：Bug 修复、协议规则修正、文案或体验优化。
-- `build`：构建号，Android 对应 `versionCode`。
+- `z`：Bug 修复。包括数据显示错误、接口字段映射、崩溃、兼容性、文案错字等修正，但不新增功能。
+- `build`：构建号，Android 对应 `versionCode`，只用于安装包升级判定。
 
 ### 安全提示
 
 - 只从 `RupingLiu/sinoway-bms-link-releases` 下载 APK。
 - 安装前可核对 Release 中提供的 SHA-256。
-- 本仓库 APK 不应包含生产 MQTT 密码、客户数据或设备敏感凭据。
+- 本仓库 APK 不应包含生产密钥、地图服务 token、客户数据或设备敏感凭据。
 
 ## 繁體中文
 
@@ -55,22 +55,22 @@ internal/GitHub 构建可在“我的 > 检查更新”中手动检查新版本�
 
 ### App 內更新
 
-internal/GitHub 建置可在「我的 > 檢查更新」中手動檢查新版本。應用商店建置不會從本倉庫下載 APK。
+internal/GitHub 建置啟動後會自動檢查並下載可用 APK 更新包；使用者仍需在「我的 > 檢查更新」中點擊「安裝更新包」並確認系統安裝器。應用商店建置不會從本倉庫下載 APK。
 
 ### 版本規則
 
-版本號使用 `x.y.z+build`：
+版本號使用 `x.y.z+build`。`x.y.z` 是產品語義版本，`+build` 只是安裝包建置號：
 
 - `x`：重大架構變更或產品方向上的破壞性調整。
 - `y`：使用者可見的功能新增。
-- `z`：Bug 修復、協議規則修正、文案或體驗優化。
-- `build`：建置號，Android 對應 `versionCode`。
+- `z`：Bug 修復。包含資料顯示錯誤、介面欄位映射、崩潰、相容性、文案錯字等修正，但不新增功能。
+- `build`：建置號，Android 對應 `versionCode`，只用於安裝包升級判定。
 
 ### 安全提示
 
 - 只從 `RupingLiu/sinoway-bms-link-releases` 下載 APK。
 - 安裝前可核對 Release 中提供的 SHA-256。
-- 本倉庫 APK 不應包含生產 MQTT 密碼、客戶資料或裝置敏感憑證。
+- 本倉庫 APK 不應包含生產密鑰、地圖服務 token、客戶資料或裝置敏感憑證。
 
 ## English
 
@@ -91,19 +91,19 @@ This is the public release repository for the Sinoway BMS Link mobile app. It is
 
 ### In-App Updates
 
-Internal/GitHub builds can manually check for updates from "Profile > Check for updates". App store builds do not download APK files from this repository.
+Internal/GitHub builds automatically check for and download available APK updates after startup. Users still need to open "Profile > Check for updates", tap "Install update", and confirm the system installer. App store builds do not download APK files from this repository.
 
 ### Versioning
 
-Versions use `x.y.z+build`:
+Versions use `x.y.z+build`. `x.y.z` is the product semantic version, and `+build` is only the install package build number:
 
 - `x`: major architecture or product direction changes.
 - `y`: user-visible feature additions.
-- `z`: bug fixes, protocol rule fixes, copy changes, or experience improvements.
-- `build`: build number, mapped to Android `versionCode`.
+- `z`: bug fixes, including data display defects, API field mapping, crashes, compatibility fixes, and copy typo corrections, without adding features.
+- `build`: build number, mapped to Android `versionCode`, used only for install-package upgrade checks.
 
 ### Security Notes
 
 - Download APK files only from `RupingLiu/sinoway-bms-link-releases`.
 - Verify the SHA-256 value provided in each Release before installing when needed.
-- APK files published here must not contain production MQTT passwords, customer data, or device-sensitive credentials.
+- APK files published here must not contain production secrets, map service tokens, customer data, or device-sensitive credentials.

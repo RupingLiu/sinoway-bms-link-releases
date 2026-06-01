@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-01T16:42:16+08:00",
+  "generatedAt": "2026-06-01T18:45:34+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.0.0",
-      "versionCode": 8,
-      "displayVersion": "1.0.0+8",
-      "releaseTag": "android-v1.0.0+8",
-      "apkFileName": "sinoway-bms-link-android-v1.0.0+8.apk",
-      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.0%2B8/sinoway-bms-link-android-v1.0.0%2B8.apk",
-      "sha256": "024bfd1e2c238ff6399df5ad2b4107576770fddddedd13c3efc8747e7b20fe45",
-      "sizeBytes": 18947518,
+      "versionName": "1.0.2",
+      "versionCode": 10,
+      "displayVersion": "1.0.2+10",
+      "releaseTag": "android-v1.0.2+10",
+      "apkFileName": "sinoway-bms-link-android-v1.0.2+10.apk",
+      "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.2%2B10/sinoway-bms-link-android-v1.0.2%2B10.apk",
+      "sha256": "19ccd08872be20f063405b512aaef86496887c7c3a639531048781842e16a80a",
+      "sizeBytes": 19471778,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复云平台设备详情数据映射：优先解析设备详情内嵌 parameterData，正确显示总电压、电流、最高/最低温度、单体电压和单体温度；定位页在轨迹接口不可用时回退到最新定位点。",
-        "zh-Hant": "修復雲平台設備詳情資料映射：優先解析設備詳情內嵌 parameterData，正確顯示總電壓、電流、最高/最低溫度、單體電壓和單體溫度；定位頁在軌跡介面不可用時回退到最新定位點。",
-        "en": "Fix cloud device detail data mapping by parsing embedded parameterData first, restoring total voltage, current, max/min temperatures, cell voltages, and cell temperatures. The location tab now falls back to the latest GPS point when track data is unavailable."
+        "zh-Hans": "修复设备详情单体页布局，统计信息、单体电压和单体温度改为紧凑栅格展示；地图页展示云平台定位点、在线状态、坐标和地图署名，下调默认缩放，压缩设备信息卡片，并使用 OpenStreetMap 无标注瓦片避免中英混排。",
+        "zh-Hant": "修復設備詳情單體頁布局，統計資訊、單體電壓和單體溫度改為緊湊格狀展示；地圖頁展示雲平台定位點、在線狀態、座標和地圖署名，下調預設縮放，壓縮設備資訊卡片，並使用 OpenStreetMap 無標注瓦片避免中英混排。",
+        "en": "Fix the device detail cell tab with compact grids for summary, cell voltages, and cell temperatures. The map page now shows cloud location points, online state, coordinates, and attribution, uses a wider default zoom, compact device panels, and OpenStreetMap no-label tiles to avoid mixed-language labels."
       }
     },
     "ios": {

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-01T16:54:40+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.0.1",
+  "versionCode": 9,
+  "displayVersion": "1.0.1+9",
+  "releaseTag": "android-v1.0.1+9",
+  "apkFileName": "sinoway-bms-link-android-v1.0.1+9.apk",
+  "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.0.1%2B9/sinoway-bms-link-android-v1.0.1%2B9.apk",
+  "sha256": "7d475a033a59de6c9b59de26a929b8f9e60171df4d6ed4a1604dbfeaec2de6cc",
+  "sizeBytes": 18947518,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "按新的 x.y.z 版本规则发布 Bug 修复版本：修复云平台设备详情数据映射，优先解析设备详情内嵌 parameterData，正确显示总电压、电流、最高/最低温度、单体电压和单体温度；定位页在轨迹接口不可用时回退到最新定位点。",
+    "zh-Hant": "按新的 x.y.z 版本規則發布 Bug 修復版本：修復雲平台設備詳情資料映射，優先解析設備詳情內嵌 parameterData，正確顯示總電壓、電流、最高/最低溫度、單體電壓和單體溫度；定位頁在軌跡介面不可用時回退到最新定位點。",
+    "en": "Publish the bug-fix release under the new x.y.z versioning rule. Fix cloud device detail data mapping by parsing embedded parameterData first, restoring total voltage, current, max/min temperatures, cell voltages, and cell temperatures. The location tab now falls back to the latest GPS point when track data is unavailable."
+  }
+}
