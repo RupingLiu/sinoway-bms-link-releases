@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-02T18:24:45+08:00",
+  "generatedAt": "2026-06-02T19:05:39+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.2.3",
-      "versionCode": 16,
-      "displayVersion": "1.2.3+16",
-      "releaseTag": "android-v1.2.3+16",
-      "apkFileName": "sinoway-bms-link-android-v1.2.3+16.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.3%2B16.apk",
-      "sha256": "2429423a433930d27290751505abd43bdb90ec9727f13a57f49db1bab999a5c0",
+      "versionName": "1.2.4",
+      "versionCode": 17,
+      "displayVersion": "1.2.4+17",
+      "releaseTag": "android-v1.2.4+17",
+      "apkFileName": "sinoway-bms-link-android-v1.2.4+17.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.4%2B17.apk",
+      "sha256": "39736bcb6e87385a8bb12c4b725b9e263e9788c2a3bad021d75c0ff7219b3c5d",
       "sizeBytes": 19471862,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复设备页面状态筛选占用空间过大的问题，全部、在线、离线、低 SOC 设备、健康设备现在保持单行等宽显示，并保留较大的触控高度。已通过 Flutter 全量测试和 Android release 构建校验。",
-        "zh-Hant": "修復設備頁面狀態篩選佔用空間過大的問題，全部、在線、離線、低 SOC 設備、健康設備現在保持單行等寬顯示，並保留較大的觸控高度。已通過 Flutter 全量測試和 Android release 建置校驗。",
-        "en": "Fix wasted space in the device-page status filter: All, Online, Offline, Low SOC devices, and Healthy devices now stay in one equal-width row while keeping larger tap targets. Verified with the full Flutter test suite and Android release build checks."
+        "zh-Hans": "修复“我的”页面检查更新后的可见性问题：发现新版本后，页面会自动滚动到更新详情区域，并把下载/安装按钮放在详情标题附近，避免用户看不到新版内容和操作按钮。已通过 Flutter 全量测试和 Android release 构建校验。",
+        "zh-Hant": "修復「我的」頁面檢查更新後的可見性問題：發現新版本後，頁面會自動捲動到更新詳情區域，並把下載/安裝按鈕放在詳情標題附近，避免使用者看不到新版內容和操作按鈕。已通過 Flutter 全量測試和 Android release 建置校驗。",
+        "en": "Fix update visibility on the Profile page. After a new version is found, the page scrolls to the update details and keeps the download/install action near the details header so users can see the release notes and action button. Verified with the full Flutter test suite and Android release build checks."
       }
     },
     "ios": {
