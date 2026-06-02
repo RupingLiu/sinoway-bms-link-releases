@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-02T19:22:30+08:00",
+  "generatedAt": "2026-06-02T19:37:28+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.2.5",
-      "versionCode": 18,
-      "displayVersion": "1.2.5+18",
-      "releaseTag": "android-v1.2.5+18",
-      "apkFileName": "sinoway-bms-link-android-v1.2.5+18.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.5%2B18.apk",
-      "sha256": "b5a95d41adac56e5728c0aba948fe80aa295b48809db4d1e4a74b6043f8e7719",
-      "sizeBytes": 19472262,
+      "versionName": "1.2.6",
+      "versionCode": 19,
+      "displayVersion": "1.2.6+19",
+      "releaseTag": "android-v1.2.6+19",
+      "apkFileName": "sinoway-bms-link-android-v1.2.6+19.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.6%2B19.apk",
+      "sha256": "95f2d0d8d15bcb4c69c7bd55b909fb1c7a44bd36c78b074d6f6839dd8e7059f4",
+      "sizeBytes": 19472258,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复安装后桌面/启动器应用名显示为工程包名的问题，Android 与 iOS 用户可见名称统一为 SinoWay BMS Link。已通过 Flutter 全量测试和 Android release 构建校验。",
-        "zh-Hant": "修復安裝後桌面/啟動器應用名顯示為工程包名的問題，Android 與 iOS 使用者可見名稱統一為 SinoWay BMS Link。已通過 Flutter 全量測試和 Android release 建置校驗。",
-        "en": "Fix the installed launcher display name so it no longer shows the engineering package name. Android and iOS user-visible names now consistently show SinoWay BMS Link. Verified with the full Flutter test suite and Android release build checks."
+        "zh-Hans": "修复全屏手机底部手势安全区导致底部导航被截断的问题。底部导航现在会避开系统手势条，并将导航栏背景延伸到安全区，同时新增底部安全区回归测试。已通过 Flutter 全量测试和 Android release 构建校验。",
+        "zh-Hant": "修復全螢幕手機底部手勢安全區導致底部導覽被截斷的問題。底部導覽現在會避開系統手勢條，並將導覽列背景延伸到安全區，同時新增底部安全區回歸測試。已通過 Flutter 全量測試和 Android release 建置校驗。",
+        "en": "Fix bottom navigation clipping on full-screen phones with gesture navigation. The bottom navigation now respects the system gesture safe area, extends its background through the inset, and includes a bottom safe-area regression test. Verified with the full Flutter test suite and Android release build checks."
       }
     },
     "ios": {

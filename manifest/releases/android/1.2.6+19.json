@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-02T19:37:28+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.2.6",
+  "versionCode": 19,
+  "displayVersion": "1.2.6+19",
+  "releaseTag": "android-v1.2.6+19",
+  "apkFileName": "sinoway-bms-link-android-v1.2.6+19.apk",
+  "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.6%2B19.apk",
+  "sha256": "95f2d0d8d15bcb4c69c7bd55b909fb1c7a44bd36c78b074d6f6839dd8e7059f4",
+  "sizeBytes": 19472258,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "修复全屏手机底部手势安全区导致底部导航被截断的问题。底部导航现在会避开系统手势条，并将导航栏背景延伸到安全区，同时新增底部安全区回归测试。已通过 Flutter 全量测试和 Android release 构建校验。",
+    "zh-Hant": "修復全螢幕手機底部手勢安全區導致底部導覽被截斷的問題。底部導覽現在會避開系統手勢條，並將導覽列背景延伸到安全區，同時新增底部安全區回歸測試。已通過 Flutter 全量測試和 Android release 建置校驗。",
+    "en": "Fix bottom navigation clipping on full-screen phones with gesture navigation. The bottom navigation now respects the system gesture safe area, extends its background through the inset, and includes a bottom safe-area regression test. Verified with the full Flutter test suite and Android release build checks."
+  }
+}
