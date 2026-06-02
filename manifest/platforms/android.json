@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-02T17:00:20+08:00",
+  "generatedAt": "2026-06-02T18:24:45+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.2.2",
-      "versionCode": 15,
-      "displayVersion": "1.2.2+15",
-      "releaseTag": "android-v1.2.2+15",
-      "apkFileName": "sinoway-bms-link-android-v1.2.2+15.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.2%2B15.apk",
-      "sha256": "27fd03099b63d201e987b4e390f103a7f5bdde89112fb55e7e1f04e1d221e146",
+      "versionName": "1.2.3",
+      "versionCode": 16,
+      "displayVersion": "1.2.3+16",
+      "releaseTag": "android-v1.2.3+16",
+      "apkFileName": "sinoway-bms-link-android-v1.2.3+16.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.3%2B16.apk",
+      "sha256": "2429423a433930d27290751505abd43bdb90ec9727f13a57f49db1bab999a5c0",
       "sizeBytes": 19471862,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复设备页状态筛选触控区过矮的问题，改为可换行且更易点击的筛选选项；总览页选择“全部”时设备列表现在在线设备优先显示；继续保留地图只渲染当前选中设备单一定位 pin 的鬼影修复。已通过 Flutter 全量测试和 Android release 构建校验。",
-        "zh-Hant": "修復設備頁狀態篩選觸控區過矮的問題，改為可換行且更易點擊的篩選選項；總覽頁選擇「全部」時設備列表現在在線設備優先顯示；繼續保留地圖只渲染目前選中設備單一定位 pin 的鬼影修復。已通過 Flutter 全量測試和 Android release 建置校驗。",
-        "en": "Fix the device-page status filter touch targets by switching to wrapped, easier-to-tap filter chips. Sort overview All devices with online devices first. Keep the map ghost-pin fix by rendering a single selected-device location pin. Verified with the full Flutter test suite and Android release build checks."
+        "zh-Hans": "修复设备页面状态筛选占用空间过大的问题，全部、在线、离线、低 SOC 设备、健康设备现在保持单行等宽显示，并保留较大的触控高度。已通过 Flutter 全量测试和 Android release 构建校验。",
+        "zh-Hant": "修復設備頁面狀態篩選佔用空間過大的問題，全部、在線、離線、低 SOC 設備、健康設備現在保持單行等寬顯示，並保留較大的觸控高度。已通過 Flutter 全量測試和 Android release 建置校驗。",
+        "en": "Fix wasted space in the device-page status filter: All, Online, Offline, Low SOC devices, and Healthy devices now stay in one equal-width row while keeping larger tap targets. Verified with the full Flutter test suite and Android release build checks."
       }
     },
     "ios": {
