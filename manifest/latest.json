@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-02T19:37:28+08:00",
+  "generatedAt": "2026-06-02T19:54:08+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.2.6",
-      "versionCode": 19,
-      "displayVersion": "1.2.6+19",
-      "releaseTag": "android-v1.2.6+19",
-      "apkFileName": "sinoway-bms-link-android-v1.2.6+19.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.6%2B19.apk",
-      "sha256": "95f2d0d8d15bcb4c69c7bd55b909fb1c7a44bd36c78b074d6f6839dd8e7059f4",
-      "sizeBytes": 19472258,
+      "versionName": "1.2.7",
+      "versionCode": 20,
+      "displayVersion": "1.2.7+20",
+      "releaseTag": "android-v1.2.7+20",
+      "apkFileName": "sinoway-bms-link-android-v1.2.7+20.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.7%2B20.apk",
+      "sha256": "d594b7acdb83e98696b6b20cfbfcab34cc395b7a9d5a7a8183c9e939bf6e7df0",
+      "sizeBytes": 19471914,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复全屏手机底部手势安全区导致底部导航被截断的问题。底部导航现在会避开系统手势条，并将导航栏背景延伸到安全区，同时新增底部安全区回归测试。已通过 Flutter 全量测试和 Android release 构建校验。",
-        "zh-Hant": "修復全螢幕手機底部手勢安全區導致底部導覽被截斷的問題。底部導覽現在會避開系統手勢條，並將導覽列背景延伸到安全區，同時新增底部安全區回歸測試。已通過 Flutter 全量測試和 Android release 建置校驗。",
-        "en": "Fix bottom navigation clipping on full-screen phones with gesture navigation. The bottom navigation now respects the system gesture safe area, extends its background through the inset, and includes a bottom safe-area regression test. Verified with the full Flutter test suite and Android release build checks."
+        "zh-Hans": "修复 Android 系统手势导航栏区域仍显示黑底的问题。应用现在在 Flutter 启动层、Android 主题和 MainActivity 恢复生命周期中统一设置白色系统导航栏、深色手势/导航图标，并关闭系统导航栏对比度强制阴影。已通过 Flutter 全量测试、Android release 构建校验和 vivo 真机覆盖安装截图验证。",
+        "zh-Hant": "修復 Android 系統手勢導覽列區域仍顯示黑底的問題。應用現在在 Flutter 啟動層、Android 主題和 MainActivity 恢復生命週期中統一設定白色系統導覽列、深色手勢/導覽圖示，並關閉系統導覽列對比度強制陰影。已通過 Flutter 全量測試、Android release 建置校驗和 vivo 真機覆蓋安裝截圖驗證。",
+        "en": "Fix the Android system gesture navigation area still falling back to a black background. The app now sets a white system navigation bar with dark gesture/navigation icons from Flutter startup, Android themes, and MainActivity resume, and disables the Android navigation contrast scrim. Verified with the full Flutter test suite, Android release build checks, and a vivo real-device overwrite install screenshot."
       }
     },
     "ios": {
