@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-02T16:14:42+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.2.1",
+  "versionCode": 14,
+  "displayVersion": "1.2.1+14",
+  "releaseTag": "android-v1.2.1+14",
+  "apkFileName": "sinoway-bms-link-android-v1.2.1+14.apk",
+  "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.1%2B14.apk",
+  "sha256": "93af313d0bc493b747e8b5e6eea6b5610ca3a38c3e032f6384a5735bf210479a",
+  "sizeBytes": 19471862,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "修复地图缩放后出现白色或灰色重复定位符号的问题，地图画布现在只渲染当前选中设备的单一定位 pin；增强 APK 更新下载的超时和请求头兼容性，并切换到仓库 raw 下载地址。已通过 Flutter 全量测试、Android release 构建和 vivo V2357A 实机地图缩放验证。",
+    "zh-Hant": "修復地圖縮放後出現白色或灰色重複定位符號的問題，地圖畫布現在只渲染目前選中設備的單一定位 pin；增強 APK 更新下載的逾時和請求頭相容性，並切換到倉庫 raw 下載地址。已通過 Flutter 全量測試、Android release 建置和 vivo V2357A 實機地圖縮放驗證。",
+    "en": "Fix duplicate white or gray location pins after map zooming by rendering a single selected-device pin on the map canvas. Improve APK update download timeout and request-header compatibility, and switch the APK URL to the repository raw mirror. Verified with the full Flutter test suite, Android release build, and vivo V2357A real-device map zoom checks."
+  }
+}
