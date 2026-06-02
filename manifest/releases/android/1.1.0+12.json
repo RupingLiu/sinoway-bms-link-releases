@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-02T11:39:53+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.1.0",
+  "versionCode": 12,
+  "displayVersion": "1.1.0+12",
+  "releaseTag": "android-v1.1.0+12",
+  "apkFileName": "sinoway-bms-link-android-v1.1.0+12.apk",
+  "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.1.0%2B12/sinoway-bms-link-android-v1.1.0%2B12.apk",
+  "sha256": "436a3873fc7a958ea2a8fc83453cb82db46d6da7226e2272bf9d8d1abdca7078",
+  "sizeBytes": 19406322,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "新增总览指标卡点击跳转、设备页状态/分组筛选、告警页处理状态/等级/分组筛选；地图仅使用天地图矢量底图和中文注记，默认缩放提升到 15；我的页隐藏工程模式/工程授权相关入口。已通过 Flutter 全量测试和 Android 真机验证。",
+    "zh-Hant": "新增總覽指標卡點擊跳轉、設備頁狀態/分組篩選、告警頁處理狀態/等級/分組篩選；地圖僅使用天地圖向量底圖和中文註記，預設縮放提升到 15；我的頁隱藏工程模式/工程授權相關入口。已通過 Flutter 全量測試和 Android 真機驗證。",
+    "en": "Add tappable overview metric cards, device status/group filters, and alarm handled/level/group filters. Maps now use Tianditu vector tiles with Chinese labels only, default zoom is 15, and engineering mode/authorization entries are hidden from Profile. Verified with the full Flutter test suite and a real Android device."
+  }
+}
