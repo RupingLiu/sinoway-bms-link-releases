@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-03T13:25:53+08:00",
+  "generatedAt": "2026-06-03T18:13:03+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.2.11",
-      "versionCode": 24,
-      "displayVersion": "1.2.11+24",
-      "releaseTag": "android-v1.2.11+24",
-      "apkFileName": "sinoway-bms-link-android-v1.2.11+24.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.11%2B24.apk",
-      "sha256": "9a1e93b09983b8dec053b0e9cff48e0a50e19512acd9f64aedd82d47f1ea14d4",
-      "sizeBytes": 19471894,
+      "versionName": "1.2.12",
+      "versionCode": 25,
+      "displayVersion": "1.2.12+25",
+      "releaseTag": "android-v1.2.12+25",
+      "apkFileName": "sinoway-bms-link-android-v1.2.12+25.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.12%2B25.apk",
+      "sha256": "b90ea2793da8cfd0803b4f09fd7d2ce48d731fdf4df66b0464107c35812040f7",
+      "sizeBytes": 19537470,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "优化设备页筛选区域和设备图标一致性。设备页改为先选择设备分组，再在当前分组下查看全部、在线、离线、低 SOC 和健康设备数量；状态筛选与计数合并到同一行，减少重复占用空间。总览页、设备页和底部设备导航的设备图标统一为电池/电芯图标，并保留设备分组的层级图标。",
-        "zh-Hant": "優化設備頁篩選區域和設備圖標一致性。設備頁改為先選擇設備分組，再在當前分組下查看全部、在線、離線、低 SOC 和健康設備數量；狀態篩選與計數合併到同一行，減少重複佔用空間。總覽頁、設備頁和底部設備導航的設備圖標統一為電池/電芯圖標，並保留設備分組的層級圖標。",
-        "en": "Refine the device page filtering area and device icon consistency. The device page now selects a device group first, then shows all, online, offline, low-SOC, and healthy counts within that group; status filters and counts are merged into one row to reduce repeated space. Device icons are unified as battery/cell icons across the overview list, device list, and bottom device navigation, while the group hierarchy icon remains for device grouping."
+        "zh-Hans": "优化地图页面设备选择交互：将定位设备选择与当前设备状态合并为一个长条浮层，点击长条即可打开设备下拉；移除底部冗余设备卡片，扩大地图可视区域；定位设备下拉列表优先显示在线设备。",
+        "zh-Hant": "優化地圖頁面設備選擇互動：將定位設備選擇與目前設備狀態合併為一個長條浮層，點擊長條即可開啟設備下拉；移除底部冗餘設備卡片，擴大地圖可視區域；定位設備下拉列表優先顯示在線設備。",
+        "en": "Refine the map device selector: merge located-device selection and current device status into one long overlay bar, open the device dropdown from the bar, remove the redundant bottom device cards to expand the visible map area, and prioritize online devices in the located-device dropdown."
       }
     },
     "ios": {
