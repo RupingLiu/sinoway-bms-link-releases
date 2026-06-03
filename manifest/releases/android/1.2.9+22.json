@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-03T09:58:44+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.2.9",
+  "versionCode": 22,
+  "displayVersion": "1.2.9+22",
+  "releaseTag": "android-v1.2.9+22",
+  "apkFileName": "sinoway-bms-link-android-v1.2.9+22.apk",
+  "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.9%2B22.apk",
+  "sha256": "eadb27d3de2fd2036db3056efa709d6380f22904e78a88d259a9f2c00b8d362c",
+  "sizeBytes": 19471958,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "优化设备详情单体页的“单体电压与温度矩阵”统计区域。常规手机宽度下统计项改为一行 3 个、两行展示，并压缩卡片内边距与固定小卡高度，减少顶部 sticky 区域占用；极窄屏仍保留 2 列兜底。新增 360dp 宽度回归测试，确保最高电压、最低电压、压差同排展示且统计区高度受控。",
+    "zh-Hant": "優化設備詳情單體頁的「單體電壓與溫度矩陣」統計區域。常規手機寬度下統計項改為一行 3 個、兩行展示，並壓縮卡片內距與固定小卡高度，減少頂部 sticky 區域佔用；極窄螢幕仍保留 2 欄兜底。新增 360dp 寬度回歸測試，確保最高電壓、最低電壓、壓差同排展示且統計區高度受控。",
+    "en": "Optimize the cell detail summary matrix. On normal phone widths, the summary now uses three compact columns across two rows, with tighter padding and fixed tile height to reduce the pinned header footprint; very narrow screens still fall back to two columns. Added a 360dp regression test to keep max voltage, min voltage, and voltage delta on the same row with a bounded summary height."
+  }
+}

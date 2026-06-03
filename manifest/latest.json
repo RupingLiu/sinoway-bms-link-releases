@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-02T20:14:20+08:00",
+  "generatedAt": "2026-06-03T09:58:44+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.2.8",
-      "versionCode": 21,
-      "displayVersion": "1.2.8+21",
-      "releaseTag": "android-v1.2.8+21",
-      "apkFileName": "sinoway-bms-link-android-v1.2.8+21.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.8%2B21.apk",
-      "sha256": "abba3db8eaf33a73f32a15283bcf1477f4c27fed4769ad48b3d32058e251a657",
-      "sizeBytes": 19471962,
+      "versionName": "1.2.9",
+      "versionCode": 22,
+      "displayVersion": "1.2.9+22",
+      "releaseTag": "android-v1.2.9+22",
+      "apkFileName": "sinoway-bms-link-android-v1.2.9+22.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.9%2B22.apk",
+      "sha256": "eadb27d3de2fd2036db3056efa709d6380f22904e78a88d259a9f2c00b8d362c",
+      "sizeBytes": 19471958,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复上滑进入最近任务/任务卡片预览时底部仍显示黑色的问题。Android 侧现在为窗口、主题和 TaskDescription 统一设置白色背景、白色 task preview 背景、白色最近任务导航栏颜色，并保持深色导航图标，避免系统任务快照用黑色默认背景补边。已通过 Flutter 全量测试、Android release 构建和 APK 版本校验；当前 adb 未识别到手机，最近任务真机截图待设备重新连接后补测。",
-        "zh-Hant": "修復上滑進入最近任務/任務卡片預覽時底部仍顯示黑色的問題。Android 側現在為視窗、主題和 TaskDescription 統一設定白色背景、白色 task preview 背景、白色最近任務導覽列顏色，並保持深色導覽圖示，避免系統任務快照用黑色預設背景補邊。已通過 Flutter 全量測試、Android release 建置和 APK 版本校驗；目前 adb 未識別到手機，最近任務真機截圖待裝置重新連線後補測。",
-        "en": "Fix the black bottom area that could still appear when swiping up into Android recents/task-card preview. Android now keeps the window, themes, and TaskDescription on a white background with a white task-preview background and white recents navigation bar while keeping dark navigation icons, preventing the system task snapshot from filling the edge with a black default background. Verified with the full Flutter test suite, Android release build, and APK version checks; adb does not currently detect the phone, so the recents screenshot needs a reconnected device."
+        "zh-Hans": "优化设备详情单体页的“单体电压与温度矩阵”统计区域。常规手机宽度下统计项改为一行 3 个、两行展示，并压缩卡片内边距与固定小卡高度，减少顶部 sticky 区域占用；极窄屏仍保留 2 列兜底。新增 360dp 宽度回归测试，确保最高电压、最低电压、压差同排展示且统计区高度受控。",
+        "zh-Hant": "優化設備詳情單體頁的「單體電壓與溫度矩陣」統計區域。常規手機寬度下統計項改為一行 3 個、兩行展示，並壓縮卡片內距與固定小卡高度，減少頂部 sticky 區域佔用；極窄螢幕仍保留 2 欄兜底。新增 360dp 寬度回歸測試，確保最高電壓、最低電壓、壓差同排展示且統計區高度受控。",
+        "en": "Optimize the cell detail summary matrix. On normal phone widths, the summary now uses three compact columns across two rows, with tighter padding and fixed tile height to reduce the pinned header footprint; very narrow screens still fall back to two columns. Added a 360dp regression test to keep max voltage, min voltage, and voltage delta on the same row with a bounded summary height."
       }
     },
     "ios": {
