@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-03T18:13:03+08:00",
+  "generatedAt": "2026-06-04T16:00:37+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.2.12",
-      "versionCode": 25,
-      "displayVersion": "1.2.12+25",
-      "releaseTag": "android-v1.2.12+25",
-      "apkFileName": "sinoway-bms-link-android-v1.2.12+25.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.12%2B25.apk",
-      "sha256": "b90ea2793da8cfd0803b4f09fd7d2ce48d731fdf4df66b0464107c35812040f7",
-      "sizeBytes": 19537470,
+      "versionName": "1.2.13",
+      "versionCode": 26,
+      "displayVersion": "1.2.13+26",
+      "releaseTag": "android-v1.2.13+26",
+      "apkFileName": "sinoway-bms-link-android-v1.2.13+26.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.13%2B26.apk",
+      "sha256": "8a5c970f6c57acce7f448dcd7669c445f8c662465907899e936a35ca01d82546",
+      "sizeBytes": 19554906,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "优化地图页面设备选择交互：将定位设备选择与当前设备状态合并为一个长条浮层，点击长条即可打开设备下拉；移除底部冗余设备卡片，扩大地图可视区域；定位设备下拉列表优先显示在线设备。",
-        "zh-Hant": "優化地圖頁面設備選擇互動：將定位設備選擇與目前設備狀態合併為一個長條浮層，點擊長條即可開啟設備下拉；移除底部冗餘設備卡片，擴大地圖可視區域；定位設備下拉列表優先顯示在線設備。",
-        "en": "Refine the map device selector: merge located-device selection and current device status into one long overlay bar, open the device dropdown from the bar, remove the redundant bottom device cards to expand the visible map area, and prioritize online devices in the located-device dropdown."
+        "zh-Hans": "将桌面应用名称调整为 BMS Mate，并重绘启动图标：采用 SinoWay 单字标和加长质感电池图案，移除残影和冗余 Dynamics 字样，提升桌面小图标识别度。",
+        "zh-Hant": "將桌面應用名稱調整為 BMS Mate，並重繪啟動圖示：採用 SinoWay 單字標和加長質感電池圖案，移除殘影和冗餘 Dynamics 字樣，提升桌面小圖示識別度。",
+        "en": "Rename the launcher label to BMS Mate and redraw the launcher icon with a SinoWay-only wordmark and longer textured battery mark, removing the ghost panel and redundant Dynamics text for clearer home-screen recognition."
       }
     },
     "ios": {
