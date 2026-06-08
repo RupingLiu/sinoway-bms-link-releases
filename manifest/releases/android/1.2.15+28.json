@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-08T15:13:58+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.2.15",
+  "versionCode": 28,
+  "displayVersion": "1.2.15+28",
+  "releaseTag": "android-v1.2.15+28",
+  "apkFileName": "sinoway-bms-link-android-v1.2.15+28.apk",
+  "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.15%2B28.apk",
+  "sha256": "8a3c68c012d9f3111f8c9a8c39da51ae2950e6d7ed20f5476c1f49014881352b",
+  "sizeBytes": 19438803,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "点击设备详情页的“定位与轨迹”卡片后，会自动切换到地图页、选中当前设备并聚焦到该设备的地图定位，减少从定位信息回到地图查找设备的操作。",
+    "zh-Hant": "點擊設備詳情頁的「定位與軌跡」卡片後，會自動切換到地圖頁、選中目前設備並聚焦到該設備的地圖定位，減少從定位資訊回到地圖查找設備的操作。",
+    "en": "Tapping the Location and Track card on a device detail page now opens the map, selects the current device, and focuses the map on that device location."
+  }
+}
