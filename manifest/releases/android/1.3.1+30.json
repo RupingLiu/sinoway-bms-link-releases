@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-08T19:22:06+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.3.1",
+  "versionCode": 30,
+  "displayVersion": "1.3.1+30",
+  "releaseTag": "android-v1.3.1+30",
+  "apkFileName": "sinoway-bms-link-android-v1.3.1+30.apk",
+  "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.3.1%2B30.apk",
+  "sha256": "92a771d2efb529b9e268b2fa7fb3238c7e3035121d0ced33384c6537e0f561d0",
+  "sizeBytes": 19504371,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "优化参数配置页分组显示；后台未提供分组时，会根据参数名称和编码自动归类，减少“未分组”堆叠。本次未改动参数写入流程。",
+    "zh-Hant": "優化參數配置頁分組顯示；後台未提供分組時，會依參數名稱和編碼自動歸類，減少「未分組」堆疊。本次未改動參數寫入流程。",
+    "en": "Improved parameter configuration grouping. When the backend does not provide a group, parameters are categorized from their names and codes to reduce the ungrouped list. Parameter write flow is unchanged in this release."
+  }
+}
