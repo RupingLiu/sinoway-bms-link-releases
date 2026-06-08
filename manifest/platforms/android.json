@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-08T15:13:58+08:00",
+  "generatedAt": "2026-06-08T17:22:47+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.2.15",
-      "versionCode": 28,
-      "displayVersion": "1.2.15+28",
-      "releaseTag": "android-v1.2.15+28",
-      "apkFileName": "sinoway-bms-link-android-v1.2.15+28.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.2.15%2B28.apk",
-      "sha256": "8a3c68c012d9f3111f8c9a8c39da51ae2950e6d7ed20f5476c1f49014881352b",
-      "sizeBytes": 19438803,
+      "versionName": "1.3.0",
+      "versionCode": 29,
+      "displayVersion": "1.3.0+29",
+      "releaseTag": "android-v1.3.0+29",
+      "apkFileName": "sinoway-bms-link-android-v1.3.0+29.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.3.0%2B29.apk",
+      "sha256": "3a85b0cfefcfb83c7c3b871a89393d3c75a9f3c7030b93974bffa67ab7c59fff",
+      "sizeBytes": 19438835,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "点击设备详情页的“定位与轨迹”卡片后，会自动切换到地图页、选中当前设备并聚焦到该设备的地图定位，减少从定位信息回到地图查找设备的操作。",
-        "zh-Hant": "點擊設備詳情頁的「定位與軌跡」卡片後，會自動切換到地圖頁、選中目前設備並聚焦到該設備的地圖定位，減少從定位資訊回到地圖查找設備的操作。",
-        "en": "Tapping the Location and Track card on a device detail page now opens the map, selects the current device, and focuses the map on that device location."
+        "zh-Hans": "登录页新增简体中文、繁体中文、English 语言选择，选择后后续 APP 界面会保持同一语言；同时修复英文 overview 顶部指标文字显示不全，并将常见后台告警名称按三语显示。",
+        "zh-Hant": "登入頁新增簡體中文、繁體中文、English 語言選擇，選擇後後續 APP 介面會保持同一語言；同時修復英文 overview 頂部指標文字顯示不全，並將常見後台警報名稱按三語顯示。",
+        "en": "Adds a Simplified Chinese, Traditional Chinese, and English language selector on login and keeps the selected language across the app. Also fixes English overview metric text wrapping and localizes common backend alarm names."
       }
     },
     "ios": {
