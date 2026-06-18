@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-18T10:49:20+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.5.0",
+  "versionCode": 32,
+  "displayVersion": "1.5.0+32",
+  "releaseTag": "android-v1.5.0+32",
+  "apkFileName": "sinoway-bms-link-android-v1.5.0+32.apk",
+  "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.5.0%2B32.apk",
+  "sha256": "7e37f7e14c7420d8229ed36460e6b27c7bb6b68ad1400f4f033c2db774a97157",
+  "sizeBytes": 20008851,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "接入蓝牙协议基础层、BLE 扫描/连接/读写客户端和蓝牙维护页面；在未配置 GATT UUID 时仅允许扫描并清晰提示缺配置，连接、读取、写入保持禁用。参数按协议点表紧凑分组，隐藏 AFE/OCD/OTD 等内部器件参数，并修复从“我的”进入蓝牙维护页后无法返回的问题。",
+    "zh-Hant": "接入藍牙協議基礎層、BLE 掃描/連線/讀寫用戶端和藍牙維護頁面；在未配置 GATT UUID 時僅允許掃描並清楚提示缺配置，連線、讀取、寫入保持停用。參數按協議點表緊湊分組，隱藏 AFE/OCD/OTD 等內部器件參數，並修復從「我的」進入藍牙維護頁後無法返回的問題。",
+    "en": "Added the Bluetooth protocol foundation, BLE scan/connect/read/write client, and Bluetooth maintenance UI. When GATT UUIDs are not configured, scanning remains available with a clear missing-configuration warning while connect/read/write stay disabled. Parameters are compactly grouped from the protocol table, AFE/OCD/OTD internal device parameters are hidden, and returning from Bluetooth maintenance back to Profile is fixed."
+  }
+}
