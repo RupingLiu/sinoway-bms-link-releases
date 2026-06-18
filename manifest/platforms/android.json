@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T10:49:20+08:00",
+  "generatedAt": "2026-06-18T12:28:41+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "github-internal",
-      "versionName": "1.5.0",
-      "versionCode": 32,
-      "displayVersion": "1.5.0+32",
-      "releaseTag": "android-v1.5.0+32",
-      "apkFileName": "sinoway-bms-link-android-v1.5.0+32.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.5.0%2B32.apk",
-      "sha256": "7e37f7e14c7420d8229ed36460e6b27c7bb6b68ad1400f4f033c2db774a97157",
-      "sizeBytes": 20008851,
+      "versionName": "1.5.1",
+      "versionCode": 33,
+      "displayVersion": "1.5.1+33",
+      "releaseTag": "android-v1.5.1+33",
+      "apkFileName": "sinoway-bms-link-android-v1.5.1+33.apk",
+      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.5.1%2B33.apk",
+      "sha256": "dc16d96b364c0f1086bd1b3999c37dc097bac01a4f72a7bc9ee1dfb63f9cd2ea",
+      "sizeBytes": 20008723,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "接入蓝牙协议基础层、BLE 扫描/连接/读写客户端和蓝牙维护页面；在未配置 GATT UUID 时仅允许扫描并清晰提示缺配置，连接、读取、写入保持禁用。参数按协议点表紧凑分组，隐藏 AFE/OCD/OTD 等内部器件参数，并修复从“我的”进入蓝牙维护页后无法返回的问题。",
-        "zh-Hant": "接入藍牙協議基礎層、BLE 掃描/連線/讀寫用戶端和藍牙維護頁面；在未配置 GATT UUID 時僅允許掃描並清楚提示缺配置，連線、讀取、寫入保持停用。參數按協議點表緊湊分組，隱藏 AFE/OCD/OTD 等內部器件參數，並修復從「我的」進入藍牙維護頁後無法返回的問題。",
-        "en": "Added the Bluetooth protocol foundation, BLE scan/connect/read/write client, and Bluetooth maintenance UI. When GATT UUIDs are not configured, scanning remains available with a clear missing-configuration warning while connect/read/write stay disabled. Parameters are compactly grouped from the protocol table, AFE/OCD/OTD internal device parameters are hidden, and returning from Bluetooth maintenance back to Profile is fixed."
+        "zh-Hans": "蓝牙入口提升为底部主导航，普通用户可直接进入；“我的”改为右上角账号入口。蓝牙参数页增加二级分组，只展示当前分组参数，减少长列表查找。扫描、设备列表和连接状态合并为紧凑连接区，空扫描结果不再占用大块页面空间。",
+        "zh-Hant": "藍牙入口提升為底部主導覽，普通使用者可直接進入；「我的」改為右上角帳號入口。藍牙參數頁增加二級分組，只顯示目前分組參數，減少長列表查找。掃描、設備列表和連線狀態合併為緊湊連線區，空掃描結果不再佔用大塊頁面空間。",
+        "en": "Promoted Bluetooth to the bottom navigation so regular users can enter it directly, with Profile moved to the top-right account entry. Added second-level grouping in the Bluetooth parameter tab so only the selected group is shown. Combined scanning, device results, and connection status into a compact connection area so empty scan results no longer consume a large part of the page."
       }
     },
     "ios": {
