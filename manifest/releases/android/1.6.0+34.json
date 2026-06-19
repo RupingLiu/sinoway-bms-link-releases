@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-20T00:36:47+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "github-internal",
+  "versionName": "1.6.0",
+  "versionCode": 34,
+  "displayVersion": "1.6.0+34",
+  "releaseTag": "android-v1.6.0+34",
+  "apkFileName": "sinoway-bms-link-android-v1.6.0+34.apk",
+  "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.6.0%2B34.apk",
+  "sha256": "c0cd7123c492ab18be142b6d7938214931ad3a4390873caef5d8a75491855d9b",
+  "sizeBytes": 20140211,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "整体重构为更克制的运维控制台视觉：减少卡片嵌套和厚重背景，提升信息密度与层级清晰度。设备详情的状态、单体、参数、控制、定位和记录页统一为轻量分区布局，关键状态和指标更易扫描。告警、设备、地图、蓝牙和我的页面同步优化标题、筛选、列表与底部导航表现。",
+    "zh-Hant": "整體重構為更克制的運維控制台視覺：減少卡片嵌套和厚重背景，提升資訊密度與層級清晰度。設備詳情的狀態、單體、參數、控制、定位和記錄頁統一為輕量分區布局，關鍵狀態和指標更易掃描。告警、設備、地圖、藍牙和我的頁面同步優化標題、篩選、列表與底部導覽表現。",
+    "en": "Refreshed the app with a calmer operations-console visual system, reducing nested cards and heavy backgrounds while improving information density and hierarchy. Device detail tabs for status, cells, parameters, controls, location, and records now use lighter section layouts so key state and metrics are easier to scan. Alarm, device, map, Bluetooth, profile, filters, lists, and bottom navigation have been polished for a cleaner field workflow."
+  }
+}
