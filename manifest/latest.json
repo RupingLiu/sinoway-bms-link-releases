@@ -1,25 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-20T00:36:47+08:00",
+  "generatedAt": "2026-06-23T11:24:05+08:00",
   "platforms": {
     "android": {
       "status": "available",
-      "channel": "github-internal",
-      "versionName": "1.6.0",
-      "versionCode": 34,
-      "displayVersion": "1.6.0+34",
-      "releaseTag": "android-v1.6.0+34",
-      "apkFileName": "sinoway-bms-link-android-v1.6.0+34.apk",
-      "downloadUrl": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.6.0%2B34.apk",
-      "sha256": "c0cd7123c492ab18be142b6d7938214931ad3a4390873caef5d8a75491855d9b",
+      "channel": "internal",
+      "versionName": "1.6.1",
+      "versionCode": 35,
+      "displayVersion": "1.6.1+35",
+      "releaseTag": "android-v1.6.1+35",
+      "apkFileName": "sinoway-bms-link-android-v1.6.1+35.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/raw/main/downloads/android/sinoway-bms-link-android-v1.6.1%2B35.apk",
+      "downloadMirrors": [
+        {
+          "name": "gitee",
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/raw/main/downloads/android/sinoway-bms-link-android-v1.6.1%2B35.apk"
+        },
+        {
+          "name": "github",
+          "url": "https://raw.githubusercontent.com/RupingLiu/sinoway-bms-link-releases/main/downloads/android/sinoway-bms-link-android-v1.6.1%2B35.apk"
+        }
+      ],
+      "sha256": "a7bf16d8ecdd91b5458b9590a5b95bbd059dfb77855e7f200b65a7c9de9b0cc2",
       "sizeBytes": 20140211,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "整体重构为更克制的运维控制台视觉：减少卡片嵌套和厚重背景，提升信息密度与层级清晰度。设备详情的状态、单体、参数、控制、定位和记录页统一为轻量分区布局，关键状态和指标更易扫描。告警、设备、地图、蓝牙和我的页面同步优化标题、筛选、列表与底部导航表现。",
-        "zh-Hant": "整體重構為更克制的運維控制台視覺：減少卡片嵌套和厚重背景，提升資訊密度與層級清晰度。設備詳情的狀態、單體、參數、控制、定位和記錄頁統一為輕量分區布局，關鍵狀態和指標更易掃描。告警、設備、地圖、藍牙和我的頁面同步優化標題、篩選、列表與底部導覽表現。",
-        "en": "Refreshed the app with a calmer operations-console visual system, reducing nested cards and heavy backgrounds while improving information density and hierarchy. Device detail tabs for status, cells, parameters, controls, location, and records now use lighter section layouts so key state and metrics are easier to scan. Alarm, device, map, Bluetooth, profile, filters, lists, and bottom navigation have been polished for a cleaner field workflow."
+        "zh-Hans": "新增 Gitee 与 GitHub 双发布地址：国内更新默认从 Gitee manifest 和 APK 镜像下载，同时保留 GitHub Release 作为公开备份入口。App 更新 manifest 支持 downloadMirrors，可按 gitee-internal 或 github-internal 构建渠道选择对应镜像，旧版本仍兼容主 downloadUrl。",
+        "zh-Hant": "新增 Gitee 與 GitHub 雙發布地址：中國內地更新預設從 Gitee manifest 和 APK 鏡像下載，同時保留 GitHub Release 作為公開備份入口。App 更新 manifest 支援 downloadMirrors，可按 gitee-internal 或 github-internal 建置通道選擇對應鏡像，舊版本仍相容主 downloadUrl。",
+        "en": "Added dual Gitee and GitHub release endpoints. Mainland China update builds now default to the Gitee manifest and APK mirror, while GitHub Releases remain available as the public backup endpoint. Update manifests now support downloadMirrors so gitee-internal and github-internal builds can choose the matching mirror while older builds still use the primary downloadUrl."
       }
     },
     "ios": {
