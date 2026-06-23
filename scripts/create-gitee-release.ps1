@@ -130,32 +130,28 @@ function Invoke-GiteeAssetUpload {
 
     $uploadUri = "https://gitee.com/api/v5/repos/$Owner/$Repo/releases/$ReleaseId/attach_files"
     $file = Get-Item -LiteralPath $FilePath
-    $client = [System.Net.Http.HttpClient]::new()
-    $formData = [System.Net.Http.MultipartFormDataContent]::new()
-    $stream = [System.IO.File]::OpenRead($file.FullName)
 
     try {
-        $client.DefaultRequestHeaders.Accept.Add([System.Net.Http.Headers.MediaTypeWithQualityHeaderValue]::Parse('application/json'))
-        $formData.Add([System.Net.Http.StringContent]::new($AccessToken), 'access_token')
-
-        $fileContent = [System.Net.Http.StreamContent]::new($stream)
-        $fileContent.Headers.ContentType = [System.Net.Http.Headers.MediaTypeHeaderValue]::Parse('application/octet-stream')
-        $formData.Add($fileContent, 'file', $file.Name)
-
-        $response = $client.PostAsync($uploadUri, $formData).GetAwaiter().GetResult()
-        $responseBody = $response.Content.ReadAsStringAsync().GetAwaiter().GetResult()
-        if (-not $response.IsSuccessStatusCode) {
-            throw "Gitee asset upload failed for $($file.Name): $([int]$response.StatusCode) $($response.ReasonPhrase)`n$responseBody"
-        }
-
-        return $responseBody | ConvertFrom-Json
+        $curl = (Get-Command curl.exe -ErrorAction Stop).Source
     } catch {
-        throw
-    } finally {
-        $stream.Dispose()
-        $formData.Dispose()
-        $client.Dispose()
+        throw 'curl.exe is required for Gitee asset upload.'
     }
+
+    $output = & $curl `
+        --fail-with-body `
+        --silent `
+        --show-error `
+        -X POST `
+        $uploadUri `
+        --form-string "access_token=$AccessToken" `
+        -F "file=@$($file.FullName);filename=$($file.Name)" 2>&1
+
+    $responseBody = ($output -join [Environment]::NewLine)
+    if ($LASTEXITCODE -ne 0) {
+        throw "Gitee asset upload failed for $($file.Name): curl exited with $LASTEXITCODE`n$responseBody"
+    }
+
+    return $responseBody | ConvertFrom-Json
 }
 
 if ([string]::IsNullOrWhiteSpace($AccessToken)) {
