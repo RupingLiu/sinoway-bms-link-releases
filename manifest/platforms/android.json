@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-23T18:18:01+08:00",
+  "generatedAt": "2026-06-23T19:05:12+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "internal",
-      "versionName": "1.7.1",
-      "versionCode": 37,
-      "displayVersion": "1.7.1+37",
-      "releaseTag": "android-v1.7.1+37",
-      "apkFileName": "sinoway-bms-link-android-v1.7.1+37.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.7.1+37/sinoway-bms-link-android-v1.7.1%2037.apk",
+      "versionName": "1.7.2",
+      "versionCode": 38,
+      "displayVersion": "1.7.2+38",
+      "releaseTag": "android-v1.7.2+38",
+      "apkFileName": "sinoway-bms-link-android-v1.7.2+38.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.7.2+38/sinoway-bms-link-android-v1.7.2%2038.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.7.1+37/sinoway-bms-link-android-v1.7.1%2037.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.7.2+38/sinoway-bms-link-android-v1.7.2%2038.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.7.1%2B37/sinoway-bms-link-android-v1.7.1%2B37.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.7.2%2B38/sinoway-bms-link-android-v1.7.2%2B38.apk"
         }
       ],
-      "sha256": "f39b7b6e3620eb8e1f2c943f3351e5d25b5f306cf5ca9fd93f7bbedf957bf754",
+      "sha256": "f0c97de53696d95c65ab929f72c36b30de81b581189eddf2eac8065cf9a319cb",
       "sizeBytes": 20074375,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "优化消费者交付界面：隐藏工程/接口预留文案，蓝牙未连接态改为用户可理解的连接引导，设备详情长 SN 完整显示并恢复顶部“我的”入口一致性。",
-        "zh-Hant": "優化消費者交付介面：隱藏工程/介面預留文案，藍牙未連接狀態改為使用者可理解的連接引導，設備詳情長 SN 完整顯示並恢復頂部「我的」入口一致性。",
-        "en": "Polished the consumer-facing experience: hidden engineering/reserved interface copy, simplified the Bluetooth disconnected state, kept long device SN values fully visible, and restored the profile action on device detail pages for header consistency."
+        "zh-Hans": "优化蓝牙扫描页布局：扫描到多个设备时，设备列表会按屏幕空间动态展开并支持内部滚动，减少空白区域；未连接提示保留为轻量提示行，不再挤占设备列表。",
+        "zh-Hant": "優化藍牙掃描頁佈局：掃描到多個設備時，設備列表會依螢幕空間動態展開並支援內部捲動，減少空白區域；未連接提示保留為輕量提示列，不再擠佔設備列表。",
+        "en": "Improved the Bluetooth scan layout: when multiple devices are discovered, the device list expands with the available screen space and scrolls internally, reducing empty space. The disconnected hint remains as a lightweight row instead of taking room away from scan results."
       }
     },
     "ios": {
