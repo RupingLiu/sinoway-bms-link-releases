@@ -6,8 +6,8 @@
 
 发布地址：
 
-- Gitee：`https://gitee.com/rupingliu/sinoway-bms-link-releases`，用于国内 manifest、仓库和 tag 镜像。
-- GitHub：`https://github.com/RupingLiu/sinoway-bms-link-releases`，用于公开 Release 附件下载。
+- Gitee：`https://gitee.com/rupingliu/sinoway-bms-link-releases`，用于国内 manifest、仓库、tag 镜像和已验证的发行版 APK 附件下载。
+- GitHub：`https://github.com/RupingLiu/sinoway-bms-link-releases`，用于公开 Release 备份附件下载。
 
 ### 当前支持
 
@@ -17,14 +17,18 @@
 
 ### 下载与安装
 
-1. 打开 GitHub Releases 页面下载 APK；国内网络可先从 Gitee 查看版本清单和 tag。
+1. 打开 Gitee 发行版页面下载 APK；如 Gitee 不可用，可改用 GitHub Releases 备份入口。
 2. 下载最新的 `sinoway-bms-link-android-*.apk`。
 3. 在 Android 设备上安装 APK。
 4. 如系统提示“安装未知来源应用”，请仅在确认来源为本仓库时授权。
 
 ### App 内更新
 
-internal Gitee/GitHub 构建启动后会自动检查并下载可用 APK 更新包；用户仍需在“我的 > 检查更新”中点击“安装更新包”并确认系统安装器。当前 Gitee raw 对 APK 大文件匿名下载会要求登录，因此 App 的 APK 下载主链接使用 GitHub Release 附件。应用商店构建不会从本仓库下载 APK。
+internal Gitee/GitHub 构建启动后会自动检查并下载可用 APK 更新包；用户仍需在“我的 > 检查更新”中点击“安装更新包”并确认系统安装器。当前 Gitee raw 对 APK 大文件匿名下载会要求登录，因此 App 的 APK 下载主链接使用已验证可匿名访问的 Gitee 发行版附件，并保留 GitHub Release 附件作为备份。应用商店构建不会从本仓库下载 APK。
+
+### Gitee 发行版
+
+Gitee 的“发行版”不会因为 push tag 自动出现，需要单独创建发行版对象并上传附件。操作步骤、当前 `1.6.1+35` 的标题、正文和附件清单见 [`docs/gitee-release.md`](docs/gitee-release.md)。
 
 ### 版本规则
 
@@ -37,7 +41,7 @@ internal Gitee/GitHub 构建启动后会自动检查并下载可用 APK 更新�
 
 ### 安全提示
 
-- 只从 `github.com/RupingLiu/sinoway-bms-link-releases` Release 附件，或经确认可匿名访问的公司/Gitee 发行版附件下载 APK。
+- 只从 `gitee.com/rupingliu/sinoway-bms-link-releases` 或 `github.com/RupingLiu/sinoway-bms-link-releases` 的 Release 附件下载 APK。
 - 安装前可核对 Release 中提供的 SHA-256。
 - 本仓库 APK 不应包含生产密钥、地图服务 token、客户数据或设备敏感凭据。
 
@@ -47,8 +51,8 @@ internal Gitee/GitHub 构建启动后会自动检查并下载可用 APK 更新�
 
 發布地址：
 
-- Gitee：`https://gitee.com/rupingliu/sinoway-bms-link-releases`，用於中國內地 manifest、倉庫和 tag 鏡像。
-- GitHub：`https://github.com/RupingLiu/sinoway-bms-link-releases`，用於公開 Release 附件下載。
+- Gitee：`https://gitee.com/rupingliu/sinoway-bms-link-releases`，用於中國內地 manifest、倉庫、tag 鏡像和已驗證的發行版 APK 附件下載。
+- GitHub：`https://github.com/RupingLiu/sinoway-bms-link-releases`，用於公開 Release 備份附件下載。
 
 ### 目前支援
 
@@ -58,14 +62,18 @@ internal Gitee/GitHub 构建启动后会自动检查并下载可用 APK 更新�
 
 ### 下載與安裝
 
-1. 開啟 GitHub Releases 頁面下載 APK；中國內地網路可先從 Gitee 查看版本清單和 tag。
+1. 開啟 Gitee 發行版頁面下載 APK；如 Gitee 不可用，可改用 GitHub Releases 備份入口。
 2. 下載最新的 `sinoway-bms-link-android-*.apk`。
 3. 在 Android 裝置上安裝 APK。
 4. 如系統提示「安裝未知來源應用」，請只在確認來源為本倉庫時授權。
 
 ### App 內更新
 
-internal Gitee/GitHub 建置啟動後會自動檢查並下載可用 APK 更新包；使用者仍需在「我的 > 檢查更新」中點擊「安裝更新包」並確認系統安裝器。目前 Gitee raw 對 APK 大文件匿名下載會要求登入，因此 App 的 APK 下載主鏈接使用 GitHub Release 附件。應用商店建置不會從本倉庫下載 APK。
+internal Gitee/GitHub 建置啟動後會自動檢查並下載可用 APK 更新包；使用者仍需在「我的 > 檢查更新」中點擊「安裝更新包」並確認系統安裝器。目前 Gitee raw 對 APK 大文件匿名下載會要求登入，因此 App 的 APK 下載主鏈接使用已驗證可匿名訪問的 Gitee 發行版附件，並保留 GitHub Release 附件作為備份。應用商店建置不會從本倉庫下載 APK。
+
+### Gitee 發行版
+
+Gitee 的「發行版」不會因為 push tag 自動出現，需要單獨建立發行版物件並上傳附件。操作步驟、目前 `1.6.1+35` 的標題、正文和附件清單見 [`docs/gitee-release.md`](docs/gitee-release.md)。
 
 ### 版本規則
 
@@ -78,7 +86,7 @@ internal Gitee/GitHub 建置啟動後會自動檢查並下載可用 APK 更新�
 
 ### 安全提示
 
-- 只從 `github.com/RupingLiu/sinoway-bms-link-releases` Release 附件，或經確認可匿名訪問的公司/Gitee 發行版附件下載 APK。
+- 只從 `gitee.com/rupingliu/sinoway-bms-link-releases` 或 `github.com/RupingLiu/sinoway-bms-link-releases` 的 Release 附件下載 APK。
 - 安裝前可核對 Release 中提供的 SHA-256。
 - 本倉庫 APK 不應包含生產密鑰、地圖服務 token、客戶資料或裝置敏感憑證。
 
@@ -88,8 +96,8 @@ This is the public release repository for the Sinoway BMS Link mobile app. It is
 
 Release endpoints:
 
-- Gitee: `https://gitee.com/rupingliu/sinoway-bms-link-releases`, used for mainland China manifests, repository content, and tag mirrors.
-- GitHub: `https://github.com/RupingLiu/sinoway-bms-link-releases`, used for public Release asset downloads.
+- Gitee: `https://gitee.com/rupingliu/sinoway-bms-link-releases`, used for mainland China manifests, repository content, tag mirrors, and verified release APK asset downloads.
+- GitHub: `https://github.com/RupingLiu/sinoway-bms-link-releases`, used for public backup Release asset downloads.
 
 ### Current Support
 
@@ -99,14 +107,18 @@ Release endpoints:
 
 ### Download and Installation
 
-1. Open the GitHub Releases page to download the APK. On mainland China networks, use Gitee first for version manifests and tags.
+1. Open the Gitee Releases page to download the APK. If Gitee is unavailable, use the GitHub Releases backup endpoint.
 2. Download the latest `sinoway-bms-link-android-*.apk`.
 3. Install the APK on an Android device.
 4. If Android asks for permission to install unknown apps, allow it only after confirming this repository is the source.
 
 ### In-App Updates
 
-Internal Gitee/GitHub builds automatically check for and download available APK updates after startup. Users still need to open "Profile > Check for updates", tap "Install update", and confirm the system installer. Gitee raw currently requires login for anonymous APK large-file downloads, so the app uses GitHub Release assets as the primary APK download link. App store builds do not download APK files from this repository.
+Internal Gitee/GitHub builds automatically check for and download available APK updates after startup. Users still need to open "Profile > Check for updates", tap "Install update", and confirm the system installer. Gitee raw currently requires login for anonymous APK large-file downloads, so the app uses the verified anonymous Gitee release attachment as the primary APK download link and keeps GitHub Release assets as the backup. App store builds do not download APK files from this repository.
+
+### Gitee Releases
+
+Gitee Releases are not created automatically when tags are pushed. Create a separate release object and upload the assets there. See [`docs/gitee-release.md`](docs/gitee-release.md) for the current `1.6.1+35` title, body, assets, and steps.
 
 ### Versioning
 
@@ -119,6 +131,6 @@ Versions use `x.y.z+build`. `x.y.z` is the product semantic version, and `+build
 
 ### Security Notes
 
-- Download APK files only from `github.com/RupingLiu/sinoway-bms-link-releases` Release assets, or from confirmed anonymous company/Gitee release asset links.
+- Download APK files only from Release assets under `gitee.com/rupingliu/sinoway-bms-link-releases` or `github.com/RupingLiu/sinoway-bms-link-releases`.
 - Verify the SHA-256 value provided in each Release before installing when needed.
 - APK files published here must not contain production secrets, map service tokens, customer data, or device-sensitive credentials.

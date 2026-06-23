@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-23T11:24:05+08:00",
+  "generatedAt": "2026-06-23T11:50:17+08:00",
   "platform": "android",
   "status": "available",
   "channel": "internal",
@@ -9,8 +9,12 @@
   "displayVersion": "1.6.1+35",
   "releaseTag": "android-v1.6.1+35",
   "apkFileName": "sinoway-bms-link-android-v1.6.1+35.apk",
-  "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.6.1%2B35/sinoway-bms-link-android-v1.6.1%2B35.apk",
+  "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.6.1+35/sinoway-bms-link-android-v1.6.1%2035.apk",
   "downloadMirrors": [
+    {
+      "name": "gitee",
+      "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.6.1+35/sinoway-bms-link-android-v1.6.1%2035.apk"
+    },
     {
       "name": "github",
       "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.6.1%2B35/sinoway-bms-link-android-v1.6.1%2B35.apk"
@@ -22,8 +26,8 @@
   "isApkDownloadEnabled": true,
   "isMandatory": false,
   "releaseNotes": {
-    "zh-Hans": "新增 Gitee 与 GitHub 双发布地址：国内更新默认从 Gitee manifest 和 APK 镜像下载，同时保留 GitHub Release 作为公开备份入口。App 更新 manifest 支持 downloadMirrors，可按 gitee-internal 或 github-internal 构建渠道选择对应镜像，旧版本仍兼容主 downloadUrl。",
-    "zh-Hant": "新增 Gitee 與 GitHub 雙發布地址：中國內地更新預設從 Gitee manifest 和 APK 鏡像下載，同時保留 GitHub Release 作為公開備份入口。App 更新 manifest 支援 downloadMirrors，可按 gitee-internal 或 github-internal 建置通道選擇對應鏡像，舊版本仍相容主 downloadUrl。",
-    "en": "Added dual Gitee and GitHub release endpoints. Mainland China update builds now default to the Gitee manifest and APK mirror, while GitHub Releases remain available as the public backup endpoint. Update manifests now support downloadMirrors so gitee-internal and github-internal builds can choose the matching mirror while older builds still use the primary downloadUrl."
+    "zh-Hans": "新增 Gitee 与 GitHub 双发布地址：国内构建默认从 Gitee manifest 检查版本，并优先下载已验证可匿名访问的 Gitee 发行版 APK 附件。App 更新 manifest 支持 downloadMirrors，GitHub Release 附件保留为公开备份下载入口。",
+    "zh-Hant": "新增 Gitee 與 GitHub 雙發布地址：中國內地建置預設從 Gitee manifest 檢查版本，並優先下載已驗證可匿名訪問的 Gitee 發行版 APK 附件。App 更新 manifest 支援 downloadMirrors，GitHub Release 附件保留為公開備份下載入口。",
+    "en": "Added dual Gitee and GitHub release endpoints. Mainland China builds now default to checking the Gitee manifest and prefer the verified anonymous Gitee release APK attachment. Update manifests support downloadMirrors, with GitHub Release assets kept as the public backup download endpoint."
   }
 }
