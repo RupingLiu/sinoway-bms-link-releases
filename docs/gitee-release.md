@@ -1,7 +1,7 @@
 # Gitee Release Publishing
 
 This repository is mirrored to both Gitee and GitHub, but a Git tag is not the
-same thing as a Gitee release. Pushing `android-v1.6.1+35` makes the tag visible
+same thing as a Gitee release. Pushing `android-v1.7.0+36` makes the tag visible
 under the repository activity and tags pages, but the sidebar "发行版" section
 stays empty until a Gitee release object is created separately.
 
@@ -12,13 +12,13 @@ References:
 
 ## Current Android Release
 
-- Version: `1.6.1+35`
-- Tag: `android-v1.6.1+35`
-- Title: `Sinoway BMS Link Android 1.6.1+35`
-- APK: `downloads/android/sinoway-bms-link-android-v1.6.1+35.apk`
-- SHA-256 file: `downloads/android/sinoway-bms-link-android-v1.6.1+35.apk.sha256`
-- SHA-256: `a7bf16d8ecdd91b5458b9590a5b95bbd059dfb77855e7f200b65a7c9de9b0cc2`
-- Size: `20140211` bytes
+- Version: `1.7.0+36`
+- Tag: `android-v1.7.0+36`
+- Title: `Sinoway BMS Link Android 1.7.0+36`
+- APK: `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk`
+- SHA-256 file: `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk.sha256`
+- SHA-256: `66f062f2052717d41dc97d07ae0b2936177b56e58c36f0102a6d45f8a87d8ce6`
+- Size: `20140267` bytes
 
 Gitee raw asks anonymous users to log in before downloading the APK large file,
 but the Gitee release attachment has been verified to download anonymously. For
@@ -30,13 +30,13 @@ download URL and keeps the GitHub Release asset as the backup mirror.
 1. Open <https://gitee.com/rupingliu/sinoway-bms-link-releases>.
 2. In the right sidebar, click `创建` under `发行版`.
 3. Click `+ 创建发行版`.
-4. Select or enter the tag `android-v1.6.1+35`.
+4. Select or enter the tag `android-v1.7.0+36`.
 5. Select branch `main` if Gitee asks for a branch containing the release.
-6. Set the title to `Sinoway BMS Link Android 1.6.1+35`.
-7. Paste the body from `docs/release-notes/android-v1.6.1+35.md`.
+6. Set the title to `Sinoway BMS Link Android 1.7.0+36`.
+7. Paste the body from `docs/release-notes/android-v1.7.0+36.md`.
 8. Attach these two files:
-   - `downloads/android/sinoway-bms-link-android-v1.6.1+35.apk`
-   - `downloads/android/sinoway-bms-link-android-v1.6.1+35.apk.sha256`
+   - `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk`
+   - `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk.sha256`
 9. Publish the release.
 10. Copy the Gitee attachment download URL and test it in a logged-out browser
     or with `Invoke-WebRequest`.
@@ -47,7 +47,7 @@ anonymous download and SHA-256 before adding it to `downloadUrl` and
 
 - `manifest/latest.json`
 - `manifest/platforms/android.json`
-- `manifest/releases/android/1.6.1+35.json`
+- `manifest/releases/android/1.7.0+36.json`
 
 Keep the GitHub Release asset as a backup `downloadMirrors` entry unless there
 is a reason to disable it.

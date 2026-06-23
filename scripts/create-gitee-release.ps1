@@ -2,10 +2,12 @@
 param(
     [string] $Owner = 'rupingliu',
     [string] $Repo = 'sinoway-bms-link-releases',
-    [string] $TagName = 'android-v1.6.1+35',
-    [string] $Name = 'Sinoway BMS Link Android 1.6.1+35',
+    [string] $Version = '1.7.0+36',
+    [string] $TagName = "android-v$Version",
+    [string] $Name = "Sinoway BMS Link Android $Version",
     [string] $TargetCommitish = 'main',
-    [string] $BodyPath = (Join-Path $PSScriptRoot '..\docs\release-notes\android-v1.6.1+35.md'),
+    [string] $BodyPath = (Join-Path $PSScriptRoot "..\docs\release-notes\android-v$Version.md"),
+    [string[]] $AssetPaths = @(),
     [string] $AccessToken = $env:GITEE_ACCESS_TOKEN,
     [switch] $Prerelease,
     [switch] $UploadAssets,
@@ -175,12 +177,14 @@ $form = @{
 }
 
 $repoRoot = Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')
-$assetPaths = @(
-    Join-Path $repoRoot 'downloads\android\sinoway-bms-link-android-v1.6.1+35.apk'
-    Join-Path $repoRoot 'downloads\android\sinoway-bms-link-android-v1.6.1+35.apk.sha256'
-)
+if ($AssetPaths.Count -eq 0) {
+    $AssetPaths = @(
+        Join-Path $repoRoot "downloads\android\sinoway-bms-link-android-v$Version.apk"
+        Join-Path $repoRoot "downloads\android\sinoway-bms-link-android-v$Version.apk.sha256"
+    )
+}
 
-foreach ($assetPath in $assetPaths) {
+foreach ($assetPath in $AssetPaths) {
     if (-not (Test-Path -LiteralPath $assetPath)) {
         throw "Expected release asset does not exist: $assetPath"
     }
@@ -205,7 +209,7 @@ if ($PSCmdlet.ShouldProcess($target, 'Create Gitee release metadata')) {
         }
 
         $existingAssetNames = Get-GiteeAssetNames -Release $release
-        foreach ($assetPath in $assetPaths) {
+        foreach ($assetPath in $AssetPaths) {
             $asset = Get-Item -LiteralPath $assetPath
             $giteeNormalizedAssetName = $asset.Name.Replace('+', ' ')
             if ($existingAssetNames -contains $asset.Name -or $existingAssetNames -contains $giteeNormalizedAssetName) {
@@ -226,7 +230,7 @@ if ($PSCmdlet.ShouldProcess($target, 'Create Gitee release metadata')) {
         Write-Host 'Verify anonymous APK download before adding a Gitee mirror to the manifest.'
     } else {
         Write-Host 'Next manual step: upload these files on the Gitee release page, or rerun this script with -UploadAssets:'
-        foreach ($assetPath in $assetPaths) {
+        foreach ($assetPath in $AssetPaths) {
             Write-Host " - $assetPath"
         }
         Write-Host ''
