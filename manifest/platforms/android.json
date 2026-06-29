@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-23T19:05:12+08:00",
+  "generatedAt": "2026-06-29T15:20:25+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "internal",
-      "versionName": "1.7.2",
-      "versionCode": 38,
-      "displayVersion": "1.7.2+38",
-      "releaseTag": "android-v1.7.2+38",
-      "apkFileName": "sinoway-bms-link-android-v1.7.2+38.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.7.2+38/sinoway-bms-link-android-v1.7.2%2038.apk",
+      "versionName": "1.8.0",
+      "versionCode": 39,
+      "displayVersion": "1.8.0+39",
+      "releaseTag": "android-v1.8.0+39",
+      "apkFileName": "sinoway-bms-link-android-v1.8.0+39.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.0+39/sinoway-bms-link-android-v1.8.0%2039.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.7.2+38/sinoway-bms-link-android-v1.7.2%2038.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.0+39/sinoway-bms-link-android-v1.8.0%2039.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.7.2%2B38/sinoway-bms-link-android-v1.7.2%2B38.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.0%2B39/sinoway-bms-link-android-v1.8.0%2B39.apk"
         }
       ],
-      "sha256": "f0c97de53696d95c65ab929f72c36b30de81b581189eddf2eac8065cf9a319cb",
-      "sizeBytes": 20074375,
+      "sha256": "f71dd1a54639fdd471b8c96cee7f1efbc3fab42fcaa195bf78967adbfdfd434f",
+      "sizeBytes": 20271427,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "优化蓝牙扫描页布局：扫描到多个设备时，设备列表会按屏幕空间动态展开并支持内部滚动，减少空白区域；未连接提示保留为轻量提示行，不再挤占设备列表。",
-        "zh-Hant": "優化藍牙掃描頁佈局：掃描到多個設備時，設備列表會依螢幕空間動態展開並支援內部捲動，減少空白區域；未連接提示保留為輕量提示列，不再擠佔設備列表。",
-        "en": "Improved the Bluetooth scan layout: when multiple devices are discovered, the device list expands with the available screen space and scrolls internally, reducing empty space. The disconnected hint remains as a lightweight row instead of taking room away from scan results."
+        "zh-Hans": "补齐蓝牙 BMS 近场维护能力：新增完整实时数据快照、BMS 告警、设备信息、自动连接和设备信息读写入口，并优化已连接后的紧凑维护界面。",
+        "zh-Hant": "補齊藍牙 BMS 近場維護能力：新增完整即時資料快照、BMS 告警、設備資訊、自動連線和設備資訊讀寫入口，並優化已連線後的緊湊維護介面。",
+        "en": "Completed the Bluetooth BMS near-field maintenance workflow with full realtime snapshots, BMS alarms, device information, auto-connect, device information read/write entry points, and a compact connected maintenance layout."
       }
     },
     "ios": {
