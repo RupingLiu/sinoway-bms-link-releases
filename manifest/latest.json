@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-29T19:08:16+08:00",
+  "generatedAt": "2026-06-30T09:59:47+08:00",
   "platforms": {
     "android": {
       "status": "available",
       "channel": "internal",
-      "versionName": "1.8.1",
-      "versionCode": 40,
-      "displayVersion": "1.8.1+40",
-      "releaseTag": "android-v1.8.1+40",
-      "apkFileName": "sinoway-bms-link-android-v1.8.1+40.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.1+40/sinoway-bms-link-android-v1.8.1%2040.apk",
+      "versionName": "1.8.2",
+      "versionCode": 41,
+      "displayVersion": "1.8.2+41",
+      "releaseTag": "android-v1.8.2+41",
+      "apkFileName": "sinoway-bms-link-android-v1.8.2+41.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.2+41/sinoway-bms-link-android-v1.8.2%2041.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.1+40/sinoway-bms-link-android-v1.8.1%2040.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.2+41/sinoway-bms-link-android-v1.8.2%2041.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.1%2B40/sinoway-bms-link-android-v1.8.1%2B40.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.2%2B41/sinoway-bms-link-android-v1.8.2%2B41.apk"
         }
       ],
-      "sha256": "54679a142e8d62060f33ded5f1a9de9a8421f711a7424ca9d1d0ab3b0eff3c74",
+      "sha256": "5f2c8ec27009b3705f65d0d4740bad4f113966b63f5e4e495fc882f1c2d8714a",
       "sizeBytes": 20271427,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "优化蓝牙近场维护体验：各功能页新增一键读取并支持 5 秒自动刷新，修复底部导航遮挡数据的问题，单体电压按最高、最低、正常、均衡状态高亮显示。",
-        "zh-Hant": "優化藍牙近場維護體驗：各功能頁新增一鍵讀取並支援 5 秒自動刷新，修復底部導覽遮擋資料的問題，單體電壓按最高、最低、正常、均衡狀態高亮顯示。",
-        "en": "Improved the Bluetooth near-field maintenance experience with one-tap reads and 5-second auto refresh on every functional page, fixed bottom navigation content overlap, and highlighted cell voltages by highest, lowest, normal, and balancing status."
+        "zh-Hans": "修复语言设置选项名称：语言列表现在统一显示为语言原名“简体中文 / 繁體中文 / ENGLISH”，避免英文、繁体中文选项跟随当前界面语言被翻译成简体中文。",
+        "zh-Hant": "修復語言設定選項名稱：語言列表現在統一顯示為語言原名「简体中文 / 繁體中文 / ENGLISH」，避免英文、繁體中文選項跟隨目前介面語言被翻譯成簡體中文。",
+        "en": "Fixed language option names. The language list now consistently shows native names: 简体中文 / 繁體中文 / ENGLISH, so English and Traditional Chinese choices are not translated into the current UI language."
       }
     },
     "ios": {

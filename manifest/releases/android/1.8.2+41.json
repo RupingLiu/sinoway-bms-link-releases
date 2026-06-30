@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-30T09:59:47+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "internal",
+  "versionName": "1.8.2",
+  "versionCode": 41,
+  "displayVersion": "1.8.2+41",
+  "releaseTag": "android-v1.8.2+41",
+  "apkFileName": "sinoway-bms-link-android-v1.8.2+41.apk",
+  "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.2+41/sinoway-bms-link-android-v1.8.2%2041.apk",
+  "downloadMirrors": [
+    {
+      "name": "gitee",
+      "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.2+41/sinoway-bms-link-android-v1.8.2%2041.apk"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.2%2B41/sinoway-bms-link-android-v1.8.2%2B41.apk"
+    }
+  ],
+  "sha256": "5f2c8ec27009b3705f65d0d4740bad4f113966b63f5e4e495fc882f1c2d8714a",
+  "sizeBytes": 20271427,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "修复语言设置选项名称：语言列表现在统一显示为语言原名“简体中文 / 繁體中文 / ENGLISH”，避免英文、繁体中文选项跟随当前界面语言被翻译成简体中文。",
+    "zh-Hant": "修復語言設定選項名稱：語言列表現在統一顯示為語言原名「简体中文 / 繁體中文 / ENGLISH」，避免英文、繁體中文選項跟隨目前介面語言被翻譯成簡體中文。",
+    "en": "Fixed language option names. The language list now consistently shows native names: 简体中文 / 繁體中文 / ENGLISH, so English and Traditional Chinese choices are not translated into the current UI language."
+  }
+}
