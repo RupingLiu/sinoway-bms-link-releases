@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-30T11:23:47+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "internal",
+  "versionName": "1.8.3",
+  "versionCode": 42,
+  "displayVersion": "1.8.3+42",
+  "releaseTag": "android-v1.8.3+42",
+  "apkFileName": "sinoway-bms-link-android-v1.8.3+42.apk",
+  "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.3+42/sinoway-bms-link-android-v1.8.3%2042.apk",
+  "downloadMirrors": [
+    {
+      "name": "gitee",
+      "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.3+42/sinoway-bms-link-android-v1.8.3%2042.apk"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.3%2B42/sinoway-bms-link-android-v1.8.3%2B42.apk"
+    }
+  ],
+  "sha256": "700ad08b073cf09d710d83e5ed610837ca8f443bb13377b1e0183181746833b9",
+  "sizeBytes": 20271427,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "优化蓝牙近场维护读取体验：进入已连接功能页或切换标签时立即读取当前页数据，并保留 5 秒自动刷新。",
+    "zh-Hant": "優化藍牙近場維護讀取體驗：進入已連線功能頁或切換標籤時立即讀取目前頁面資料，並保留 5 秒自動刷新。",
+    "en": "Improved Bluetooth near-field maintenance reads so connected tabs load data immediately when opened or switched, while keeping the 5-second auto refresh."
+  }
+}
