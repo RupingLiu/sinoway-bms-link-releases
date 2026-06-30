@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-30T16:54:45+08:00",
+  "platform": "android",
+  "status": "available",
+  "channel": "internal",
+  "versionName": "1.8.4",
+  "versionCode": 43,
+  "displayVersion": "1.8.4+43",
+  "releaseTag": "android-v1.8.4+43",
+  "apkFileName": "sinoway-bms-link-android-v1.8.4+43.apk",
+  "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.4+43/sinoway-bms-link-android-v1.8.4%2043.apk",
+  "downloadMirrors": [
+    {
+      "name": "gitee",
+      "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.4+43/sinoway-bms-link-android-v1.8.4%2043.apk"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.4%2B43/sinoway-bms-link-android-v1.8.4%2B43.apk"
+    }
+  ],
+  "sha256": "e1250743a355d000a5214acc3543a168148d7aaf697db65332b61529afa5f887",
+  "sizeBytes": 20271427,
+  "minAndroidSdk": 24,
+  "isApkDownloadEnabled": true,
+  "isMandatory": false,
+  "releaseNotes": {
+    "zh-Hans": "修复蓝牙近场维护参数写入：额定容量等基础设置按设备协议成对写入，蓝牙连接态下不再套用 4G/云端账号权限，并避免自动读取长期占用写入忙态。",
+    "zh-Hant": "修復藍牙近場維護參數寫入：額定容量等基礎設定依設備協議成對寫入，藍牙連線狀態下不再套用 4G/雲端帳號權限，並避免自動讀取長時間佔用寫入忙碌狀態。",
+    "en": "Fixed Bluetooth near-field parameter writes: basic settings use the paired device write, connected Bluetooth writes no longer reuse 4G/cloud role checks, and auto-read no longer keeps writes busy."
+  }
+}
