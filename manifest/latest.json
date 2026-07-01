@@ -1,35 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-30T19:01:20+08:00",
+  "generatedAt": "2026-07-01T16:52:30+08:00",
   "platforms": {
     "android": {
+      "schemaVersion": 1,
+      "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.8.5",
-      "versionCode": 44,
-      "displayVersion": "1.8.5+44",
-      "releaseTag": "android-v1.8.5+44",
-      "apkFileName": "sinoway-bms-link-android-v1.8.5+44.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.5+44/sinoway-bms-link-android-v1.8.5%2044.apk",
+      "versionName": "1.8.6",
+      "versionCode": 45,
+      "displayVersion": "1.8.6+45",
+      "releaseTag": "android-v1.8.6+45",
+      "apkFileName": "sinoway-bms-link-android-v1.8.6+45.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.6+45/sinoway-bms-link-android-v1.8.6%2045.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.5+44/sinoway-bms-link-android-v1.8.5%2044.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.6+45/sinoway-bms-link-android-v1.8.6%2045.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.5%2B44/sinoway-bms-link-android-v1.8.5%2B44.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.6%2B45/sinoway-bms-link-android-v1.8.6%2B45.apk"
         }
       ],
-      "sha256": "ef9c12dd9e557f6650eba97107caac9b9f801ed345d1278bef7ceb77d2f0fb69",
-      "sizeBytes": 20271427,
+      "sha256": "73714d2ebabc79d6ced52ce3f945e31dc39115e075bbb1696d7eb9395b0e2559",
+      "sizeBytes": 20337035,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复远程平台参数读写：账号能力按后台 currentUserInfo 的角色和按钮权限刷新，ceshi01 不再误显示为观察者；参数页可读取云端当前值，并兼容后台额定容量写入所需的电池编号。",
-        "zh-Hant": "修復遠端平台參數讀寫：帳號能力依後台 currentUserInfo 的角色與按鈕權限刷新，ceshi01 不再誤顯示為觀察者；參數頁可讀取雲端目前值，並相容後台額定容量寫入所需的電池編號。",
-        "en": "Fixed remote platform parameter reads and writes: account capabilities refresh from backend currentUserInfo roles and buttons, ceshi01 is no longer shown as observer, parameter pages read cloud current values, and rated-capacity writes use the battery identifier accepted by the backend."
+        "zh-Hans": "新增蓝牙账号设备匹配与未匹配设备只读模式：匹配当前账号的蓝牙设备保留完整近场维护能力；后台暂未返回蓝牙地址/名称时仍可连接读取实时状态、BMS告警、参数和设备信息，但禁止参数写入、设备信息写入、控制命令和自动连接保存。正式包同步使用现场验证通过的 FEE7/FEC1 GATT 配置。",
+        "zh-Hant": "新增藍牙帳號設備匹配與未匹配設備唯讀模式：匹配目前帳號的藍牙設備保留完整近場維護能力；後台暫未返回藍牙地址/名稱時仍可連接讀取即時狀態、BMS告警、參數與設備資訊，但禁止參數寫入、設備資訊寫入、控制命令與自動連接保存。正式包同步使用現場驗證通過的 FEE7/FEC1 GATT 設定。",
+        "en": "Added Bluetooth account-device matching and read-only mode for unmatched devices: matched account devices keep full local maintenance capability; when the backend does not yet return Bluetooth address/name fields, the app can still connect and read realtime status, BMS alarms, parameters, and device information, while parameter writes, device-info writes, control commands, and auto-connect saving are disabled. Release builds now use the field-verified FEE7/FEC1 GATT configuration."
       }
     },
     "ios": {
