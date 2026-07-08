@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T18:06:52+08:00",
+  "generatedAt": "2026-07-08T16:17:53+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-01T18:06:52+08:00",
+      "generatedAt": "2026-07-08T16:17:53+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.8.7",
-      "versionCode": 46,
-      "displayVersion": "1.8.7+46",
-      "releaseTag": "android-v1.8.7+46",
-      "apkFileName": "sinoway-bms-link-android-v1.8.7+46.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.7+46/sinoway-bms-link-android-v1.8.7%2046.apk",
+      "versionName": "1.8.8",
+      "versionCode": 47,
+      "displayVersion": "1.8.8+47",
+      "releaseTag": "android-v1.8.8+47",
+      "apkFileName": "sinoway-bms-link-android-v1.8.8+47.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.8+47/sinoway-bms-link-android-v1.8.8%2047.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.7+46/sinoway-bms-link-android-v1.8.7%2046.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.8+47/sinoway-bms-link-android-v1.8.8%2047.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.7%2B46/sinoway-bms-link-android-v1.8.7%2B46.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.8%2B47/sinoway-bms-link-android-v1.8.8%2B47.apk"
         }
       ],
-      "sha256": "3fdc74e1d5b83939df6dbbd7104855adf18df009b58d00628ec7a7c4ad9a7d08",
+      "sha256": "d0dee548b302de5cc1c4965fca7980ee4fecefad894c79d6a4a572dedc10260e",
       "sizeBytes": 20337035,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复蓝牙直连设备断开后重新扫描仍被旧地址过滤的问题：直连地址在连接成功或断开后会自动清空，搜索框与内部过滤状态保持同步，重新扫描会显示附近全部可发现蓝牙设备。未匹配当前账号的蓝牙设备继续保持只读模式，可连接读取但禁止参数写入、设备信息写入、控制命令和自动连接保存。",
-        "zh-Hant": "修復藍牙直連設備斷開後重新掃描仍被舊地址過濾的問題：直連地址在連接成功或斷開後會自動清空，搜尋框與內部過濾狀態保持同步，重新掃描會顯示附近全部可發現藍牙設備。未匹配目前帳號的藍牙設備繼續保持唯讀模式，可連接讀取但禁止參數寫入、設備資訊寫入、控制命令與自動連接保存。",
-        "en": "Fixed Bluetooth rescans after disconnecting from a direct-address connection: the one-shot address is cleared after connect or disconnect, the search field stays in sync with the internal scan filter, and rescanning shows all nearby discoverable BLE devices. Bluetooth devices not matched to the current account continue to use read-only mode: reads are allowed, while parameter writes, device-info writes, control commands, and auto-connect saving remain disabled."
+        "zh-Hans": "按参数写权限控制蓝牙入口：具备设置BMS参数、parameterWrite 或 super_admin 才显示蓝牙页；普通运营员只读权限不再显示蓝牙，并在权限变化时释放蓝牙控制器。",
+        "zh-Hant": "依參數寫入權限控制藍牙入口：具備設定BMS參數、parameterWrite 或 super_admin 才顯示藍牙頁；普通營運員唯讀權限不再顯示藍牙，且權限變更時會釋放藍牙控制器。",
+        "en": "Gates Bluetooth maintenance by parameter-write access: setBMSParameters, parameterWrite, or super_admin can open Bluetooth; read-only operator accounts no longer see it, and BLE controllers are disposed when access is lost."
       }
     },
     "ios": {
