@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-08T16:17:53+08:00",
+  "generatedAt": "2026-07-08T18:16:06+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-08T16:17:53+08:00",
+      "generatedAt": "2026-07-08T18:16:06+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.8.8",
-      "versionCode": 47,
-      "displayVersion": "1.8.8+47",
-      "releaseTag": "android-v1.8.8+47",
-      "apkFileName": "sinoway-bms-link-android-v1.8.8+47.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.8+47/sinoway-bms-link-android-v1.8.8%2047.apk",
+      "versionName": "1.8.9",
+      "versionCode": 48,
+      "displayVersion": "1.8.9+48",
+      "releaseTag": "android-v1.8.9+48",
+      "apkFileName": "sinoway-bms-link-android-v1.8.9+48.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.9+48/sinoway-bms-link-android-v1.8.9%2048.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.8+47/sinoway-bms-link-android-v1.8.8%2047.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.9+48/sinoway-bms-link-android-v1.8.9%2048.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.8%2B47/sinoway-bms-link-android-v1.8.8%2B47.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.9%2B48/sinoway-bms-link-android-v1.8.9%2B48.apk"
         }
       ],
-      "sha256": "d0dee548b302de5cc1c4965fca7980ee4fecefad894c79d6a4a572dedc10260e",
-      "sizeBytes": 20337035,
+      "sha256": "dd1b22709281874080a86a2f27bf738ffe0cf77f6ed52dd9ead7811d4c986fe5",
+      "sizeBytes": 20337067,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "按参数写权限控制蓝牙入口：具备设置BMS参数、parameterWrite 或 super_admin 才显示蓝牙页；普通运营员只读权限不再显示蓝牙，并在权限变化时释放蓝牙控制器。",
-        "zh-Hant": "依參數寫入權限控制藍牙入口：具備設定BMS參數、parameterWrite 或 super_admin 才顯示藍牙頁；普通營運員唯讀權限不再顯示藍牙，且權限變更時會釋放藍牙控制器。",
-        "en": "Gates Bluetooth maintenance by parameter-write access: setBMSParameters, parameterWrite, or super_admin can open Bluetooth; read-only operator accounts no longer see it, and BLE controllers are disposed when access is lost."
+        "zh-Hans": "修复云端设备分组在 App 中未按客户树层级展示的问题：设备页分组下拉改为从筛选栏下方展开，默认只展开 admin 下一级，点击父分组后再展开子分组；同时移除设备列表、总览和详情中的多余 SN、云平台连接等展示。",
+        "zh-Hant": "修復雲端設備分組在 App 中未依客戶樹層級展示的問題：設備頁分組下拉改為從篩選欄下方展開，預設只展開 admin 下一級，點擊父分組後再展開子分組；同時移除設備列表、總覽與詳情中的多餘 SN、雲平台連線等展示。",
+        "en": "Fixed cloud device grouping in the app so the device page mirrors the customer tree hierarchy: the group picker opens below the filter field, expands only the first level under admin by default, and reveals child groups after expanding a parent. Also removed redundant SN and cloud-connection text from device list, overview, and detail surfaces."
       }
     },
     "ios": {
