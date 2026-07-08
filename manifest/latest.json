@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-08T18:16:06+08:00",
+  "generatedAt": "2026-07-08T18:54:01+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-08T18:16:06+08:00",
+      "generatedAt": "2026-07-08T18:54:01+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.8.9",
-      "versionCode": 48,
-      "displayVersion": "1.8.9+48",
-      "releaseTag": "android-v1.8.9+48",
-      "apkFileName": "sinoway-bms-link-android-v1.8.9+48.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.9+48/sinoway-bms-link-android-v1.8.9%2048.apk",
+      "versionName": "1.9.0",
+      "versionCode": 49,
+      "displayVersion": "1.9.0+49",
+      "releaseTag": "android-v1.9.0+49",
+      "apkFileName": "sinoway-bms-link-android-v1.9.0+49.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.9.0+49/sinoway-bms-link-android-v1.9.0%2049.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.8.9+48/sinoway-bms-link-android-v1.8.9%2048.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.9.0+49/sinoway-bms-link-android-v1.9.0%2049.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.8.9%2B48/sinoway-bms-link-android-v1.8.9%2B48.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.9.0%2B49/sinoway-bms-link-android-v1.9.0%2B49.apk"
         }
       ],
-      "sha256": "dd1b22709281874080a86a2f27bf738ffe0cf77f6ed52dd9ead7811d4c986fe5",
+      "sha256": "805f6df0de8c00ad6141723858eb52395278ef17169e86e0f1a280c17c15f7b2",
       "sizeBytes": 20337067,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复云端设备分组在 App 中未按客户树层级展示的问题：设备页分组下拉改为从筛选栏下方展开，默认只展开 admin 下一级，点击父分组后再展开子分组；同时移除设备列表、总览和详情中的多余 SN、云平台连接等展示。",
-        "zh-Hant": "修復雲端設備分組在 App 中未依客戶樹層級展示的問題：設備頁分組下拉改為從篩選欄下方展開，預設只展開 admin 下一級，點擊父分組後再展開子分組；同時移除設備列表、總覽與詳情中的多餘 SN、雲平台連線等展示。",
-        "en": "Fixed cloud device grouping in the app so the device page mirrors the customer tree hierarchy: the group picker opens below the filter field, expands only the first level under admin by default, and reveals child groups after expanding a parent. Also removed redundant SN and cloud-connection text from device list, overview, and detail surfaces."
+        "zh-Hans": "优化内部分发自动更新体验：App 启动后会持续周期检查新版本，WiFi 下自动下载更新包，下载完成后在顶部显示新版本安装提示；用户可点击顶部提示或进入“我的/检查更新”启动系统安装器。",
+        "zh-Hant": "優化內部分發自動更新體驗：App 啟動後會持續週期檢查新版本，WiFi 下自動下載更新包，下載完成後在頂部顯示新版本安裝提示；使用者可點擊頂部提示或進入「我的/檢查更新」啟動系統安裝器。",
+        "en": "Improved internal APK update delivery: after startup the app periodically checks for new versions, downloads the APK automatically on Wi-Fi, shows a top update prompt after download, and lets users install from the prompt or Profile update card."
       }
     },
     "ios": {
