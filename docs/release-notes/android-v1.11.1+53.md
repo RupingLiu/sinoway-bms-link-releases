@@ -27,4 +27,4 @@
 - Size: `20665403` bytes
 - SHA-256: `345e4043100f46339d78870bbba31d7a0336378bd0fffb37c70a56e6d68dedaa`
 
-The current manifest uses the verified Gitee release attachment as the primary APK download source. GitHub Release assets remain in `downloadMirrors` as the backup endpoint.
+The current manifest uses the verified GitHub Release asset as the APK download source. Gitee repository manifest files are already updated; the Gitee Release attachment should be added after refreshing the internal Gitee API token.
