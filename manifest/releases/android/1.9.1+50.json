@@ -9,12 +9,8 @@
   "displayVersion": "1.9.1+50",
   "releaseTag": "android-v1.9.1+50",
   "apkFileName": "sinoway-bms-link-android-v1.9.1+50.apk",
-  "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.9.1+50/sinoway-bms-link-android-v1.9.1%2050.apk",
+  "downloadUrl": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.9.1%2B50/sinoway-bms-link-android-v1.9.1%2B50.apk",
   "downloadMirrors": [
-    {
-      "name": "gitee",
-      "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.9.1+50/sinoway-bms-link-android-v1.9.1%2050.apk"
-    },
     {
       "name": "github",
       "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.9.1%2B50/sinoway-bms-link-android-v1.9.1%2B50.apk"
