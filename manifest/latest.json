@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T15:36:01+08:00",
+  "generatedAt": "2026-07-09T19:20:00+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-09T15:36:01+08:00",
+      "generatedAt": "2026-07-09T19:20:00+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.10.0",
-      "versionCode": 51,
-      "displayVersion": "1.10.0+51",
-      "releaseTag": "android-v1.10.0+51",
-      "apkFileName": "sinoway-bms-link-android-v1.10.0+51.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.10.0+51/sinoway-bms-link-android-v1.10.0%2051.apk",
+      "versionName": "1.11.0",
+      "versionCode": 52,
+      "displayVersion": "1.11.0+52",
+      "releaseTag": "android-v1.11.0+52",
+      "apkFileName": "sinoway-bms-link-android-v1.11.0+52.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.0+52/sinoway-bms-link-android-v1.11.0%2052.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.10.0+51/sinoway-bms-link-android-v1.10.0%2051.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.0+52/sinoway-bms-link-android-v1.11.0%2052.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.10.0%2B51/sinoway-bms-link-android-v1.10.0%2B51.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.11.0%2B52/sinoway-bms-link-android-v1.11.0%2B52.apk"
         }
       ],
-      "sha256": "94785a83b448f6408f63a7d25ac9d2efa89e1a38498dc2185d685076213aec63",
-      "sizeBytes": 20468535,
+      "sha256": "9e7971943aef53c1176d9108234c597e5a5783df9e38015d6df97f9802939d2b",
+      "sizeBytes": 20665403,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "新增总览、设备、地图和告警统一设备搜索，支持同时匹配设备号码、设备名称、铁塔编码和主板型号；增加搜索模式提示；告警分组下拉与设备页保持一致，并默认显示当前账号顶层分组。",
-        "zh-Hant": "新增總覽、設備、地圖和告警統一設備搜尋，支援同時匹配設備號碼、設備名稱、鐵塔編碼和主板型號；增加搜尋模式提示；告警分組下拉與設備頁保持一致，並預設顯示目前帳號頂層分組。",
-        "en": "Added unified device search across Overview, Devices, Map, and Alarms, matching device number, name, tower code, and mainboard model together; active search mode is now explicit; Alarm group selection now matches Devices and defaults to the current account top group."
+        "zh-Hans": "新增云端轨迹回放地图页，优化轨迹播放面板和车辆标记；总览、地图补齐账号分组下拉，并让总览、设备、地图和告警页面在返回后保留分组、状态、等级和搜索筛选。",
+        "zh-Hant": "新增雲端軌跡回放地圖頁，優化軌跡播放面板和車輛標記；總覽、地圖補齊帳號分組下拉，並讓總覽、設備、地圖和告警頁面在返回後保留分組、狀態、等級和搜尋篩選。",
+        "en": "Added cloud trajectory playback with a tighter playback panel and vehicle marker; Overview and Map now include account group selectors, and Overview, Devices, Map, and Alarms keep group, status, severity, and search filters after returning."
       }
     },
     "ios": {
