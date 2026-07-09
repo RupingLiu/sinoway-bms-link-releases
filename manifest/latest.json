@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-08T19:06:20+08:00",
+  "generatedAt": "2026-07-09T11:19:59+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-08T19:06:20+08:00",
+      "generatedAt": "2026-07-09T11:19:59+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.9.0",
-      "versionCode": 49,
-      "displayVersion": "1.9.0+49",
-      "releaseTag": "android-v1.9.0+49",
-      "apkFileName": "sinoway-bms-link-android-v1.9.0+49.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.9.0+49/sinoway-bms-link-android-v1.9.0%2049.apk",
+      "versionName": "1.9.1",
+      "versionCode": 50,
+      "displayVersion": "1.9.1+50",
+      "releaseTag": "android-v1.9.1+50",
+      "apkFileName": "sinoway-bms-link-android-v1.9.1+50.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.9.1+50/sinoway-bms-link-android-v1.9.1%2050.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.9.0+49/sinoway-bms-link-android-v1.9.0%2049.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.9.1+50/sinoway-bms-link-android-v1.9.1%2050.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.9.0%2B49/sinoway-bms-link-android-v1.9.0%2B49.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.9.1%2B50/sinoway-bms-link-android-v1.9.1%2B50.apk"
         }
       ],
-      "sha256": "805f6df0de8c00ad6141723858eb52395278ef17169e86e0f1a280c17c15f7b2",
-      "sizeBytes": 20337067,
+      "sha256": "378cf56460ddd11076fae75fa06c636b356c0e6bd6e1447ccff6c385d9df5536",
+      "sizeBytes": 20468455,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "优化内部分发自动更新体验：App 启动后会持续周期检查新版本，WiFi 下自动下载更新包，下载完成后在顶部显示新版本安装提示；用户可点击顶部提示或进入“我的/检查更新”启动系统安装器。",
-        "zh-Hant": "優化內部分發自動更新體驗：App 啟動後會持續週期檢查新版本，WiFi 下自動下載更新包，下載完成後在頂部顯示新版本安裝提示；使用者可點擊頂部提示或進入「我的/檢查更新」啟動系統安裝器。",
-        "en": "Improved internal APK update delivery: after startup the app periodically checks for new versions, downloads the APK automatically on Wi-Fi, shows a top update prompt after download, and lets users install from the prompt or Profile update card."
+        "zh-Hans": "优化登录、启动加载、设备号码展示、地图设备下拉和详情页权限体验；更新检查周期缩短为 5 分钟；定位与轨迹并入状态页，云端控制和记录按账号参数写权限显示。",
+        "zh-Hant": "優化登入、啟動載入、設備號碼展示、地圖設備下拉和詳情頁權限體驗；更新檢查週期縮短為 5 分鐘；定位與軌跡併入狀態頁，雲端控制和記錄依帳號參數寫入權限顯示。",
+        "en": "Improved login, startup loading, device-number display, map device selector details, and permission-aware device detail tabs; update checks now run every 5 minutes; location and tracks live in Status while Control and Records follow account parameter write permission."
       }
     },
     "ios": {
