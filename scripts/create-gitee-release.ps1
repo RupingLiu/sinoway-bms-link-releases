@@ -4,7 +4,7 @@ param(
     [string] $Repo = 'sinoway-bms-link-releases',
     [string] $Version = '1.7.0+36',
     [string] $TagName = "android-v$Version",
-    [string] $Name = "Sinoway BMS Link Android $Version",
+    [string] $Name = "Sinoway BMS Mate $Version",
     [string] $TargetCommitish = 'main',
     [string] $BodyPath = (Join-Path $PSScriptRoot "..\docs\release-notes\android-v$Version.md"),
     [string[]] $AssetPaths = @(),

@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-10T11:51:08+08:00",
+  "generatedAt": "2026-07-13T17:33:57+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-10T11:51:08+08:00",
+      "generatedAt": "2026-07-13T17:33:57+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.11.2",
-      "versionCode": 54,
-      "displayVersion": "1.11.2+54",
-      "releaseTag": "android-v1.11.2+54",
-      "apkFileName": "sinoway-bms-link-android-v1.11.2+54.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.2+54/sinoway-bms-link-android-v1.11.2%2054.apk",
+      "versionName": "1.11.3",
+      "versionCode": 55,
+      "displayVersion": "1.11.3+55",
+      "releaseTag": "android-v1.11.3+55",
+      "apkFileName": "sinoway-bms-link-android-v1.11.3+55.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.3+55/sinoway-bms-link-android-v1.11.3%2055.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.2+54/sinoway-bms-link-android-v1.11.2%2054.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.3+55/sinoway-bms-link-android-v1.11.3%2055.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.11.2%2B54/sinoway-bms-link-android-v1.11.2%2B54.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.11.3%2B55/sinoway-bms-link-android-v1.11.3%2B55.apk"
         }
       ],
-      "sha256": "90f1ad85c7c8b87a5d0fed6c9ea67003afedb189340f37a7e826b41c0ad6532a",
-      "sizeBytes": 20665151,
+      "sha256": "62c3cc127c786f7f14902be8ad7ba01cd5a433016585049dc466355f41da4931",
+      "sizeBytes": 20665179,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "工程师蓝牙维护可尝试连接任意附近 BLE 设备，不再依赖云端蓝牙绑定字段；扫描页展示所有 BLE 广播并优先排列 SWD- 设备；精简扫描布局，设备行整行连接且移除重复连接按钮；自动连接按账号隔离。",
-        "zh-Hant": "工程師藍牙維護可嘗試連接任意附近 BLE 裝置，不再依賴雲端藍牙綁定欄位；掃描頁顯示所有 BLE 廣播並優先排列 SWD- 裝置；精簡掃描版面，裝置列整列連接且移除重複連接按鈕；自動連接依帳號隔離。",
-        "en": "Engineer Bluetooth maintenance can attempt any nearby BLE device without cloud binding fields. The scan page shows all BLE advertisements and prioritizes SWD- devices; the compact layout uses row-tap connection without repeated buttons; auto-connect is account-isolated."
+        "zh-Hans": "云端设备数据新增电池状态；总览、设备列表和设备详情可显示充电、放电或静置。统一设备状态布局，并优化长编号、型号和客户/站点信息显示，避免截断或换行。",
+        "zh-Hant": "雲端設備資料新增電池狀態；總覽、設備清單和設備詳情可顯示充電、放電或靜置。統一設備狀態版面，並最佳化長編號、型號和客戶/站點資訊顯示，避免截斷或換行。",
+        "en": "Cloud device data now includes the battery operating state, displayed as charging, discharging, or idle across Overview, Devices, and Device Detail. Device status layout and long identifier, model, and customer/site text were refined to avoid truncation and wrapping."
       }
     },
     "ios": {

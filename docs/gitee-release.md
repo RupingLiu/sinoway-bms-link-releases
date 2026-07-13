@@ -10,11 +10,11 @@ References:
 - Gitee release creation help: <https://help.gitee.com/repository/release/create>
 - Gitee release CLI: <https://gitee.com/gitee-frontend/gitee-release-cli>
 
-## Current Android Release
+## Future Android Release Template
 
 - Version: `1.7.0+36`
 - Tag: `android-v1.7.0+36`
-- Title: `Sinoway BMS Link Android 1.7.0+36`
+- Title: `Sinoway BMS Mate 1.7.0+36`
 - APK: `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk`
 - SHA-256 file: `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk.sha256`
 - SHA-256: `66f062f2052717d41dc97d07ae0b2936177b56e58c36f0102a6d45f8a87d8ce6`
@@ -32,7 +32,7 @@ download URL and keeps the GitHub Release asset as the backup mirror.
 3. Click `+ 创建发行版`.
 4. Select or enter the tag `android-v1.7.0+36`.
 5. Select branch `main` if Gitee asks for a branch containing the release.
-6. Set the title to `Sinoway BMS Link Android 1.7.0+36`.
+6. Set the title to `Sinoway BMS Mate 1.7.0+36`.
 7. Paste the body from `docs/release-notes/android-v1.7.0+36.md`.
 8. Attach these two files:
    - `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk`
@@ -68,6 +68,13 @@ Create or reuse the release and upload assets:
 
 ```powershell
 .\scripts\create-gitee-release.ps1 -UploadAssets
+```
+
+The script defaults the Gitee release title to `Sinoway BMS Mate <version>`.
+Use the same title when creating the mirrored GitHub Release, for example:
+
+```powershell
+gh release create "android-v1.7.0+36" --repo RupingLiu/sinoway-bms-link-releases --title "Sinoway BMS Mate 1.7.0+36" --notes-file ".\docs\release-notes\android-v1.7.0+36.md"
 ```
 
 Use PowerShell `-WhatIf` first if you only want to preview the API action:
