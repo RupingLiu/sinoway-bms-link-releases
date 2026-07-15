@@ -175,8 +175,8 @@ $form = @{
 $repoRoot = Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')
 if ($AssetPaths.Count -eq 0) {
     $AssetPaths = @(
-        Join-Path $repoRoot "downloads\android\sinoway-bms-link-android-v$Version.apk"
-        Join-Path $repoRoot "downloads\android\sinoway-bms-link-android-v$Version.apk.sha256"
+        Join-Path $repoRoot "downloads\android\Sinoway BMS Mate $Version.apk"
+        Join-Path $repoRoot "downloads\android\Sinoway BMS Mate $Version.apk.sha256"
     )
 }
 

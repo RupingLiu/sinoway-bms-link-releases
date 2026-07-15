@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T17:33:57+08:00",
+  "generatedAt": "2026-07-15T14:26:45+08:00",
   "platform": "android",
   "status": "available",
   "channel": "internal",
@@ -9,15 +9,15 @@
   "displayVersion": "1.11.3+55",
   "releaseTag": "android-v1.11.3+55",
   "apkFileName": "sinoway-bms-link-android-v1.11.3+55.apk",
-  "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.3+55/sinoway-bms-link-android-v1.11.3%2055.apk",
+  "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.3+55/Sinoway%20BMS%20Mate%201.11.3%2055.apk",
   "downloadMirrors": [
     {
       "name": "gitee",
-      "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.3+55/sinoway-bms-link-android-v1.11.3%2055.apk"
+      "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.3+55/Sinoway%20BMS%20Mate%201.11.3%2055.apk"
     },
     {
       "name": "github",
-      "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.11.3%2B55/sinoway-bms-link-android-v1.11.3%2B55.apk"
+      "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.11.3%2B55/Sinoway.BMS.Mate.1.11.3%2B55.apk"
     }
   ],
   "sha256": "62c3cc127c786f7f14902be8ad7ba01cd5a433016585049dc466355f41da4931",

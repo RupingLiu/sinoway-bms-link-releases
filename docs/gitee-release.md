@@ -15,8 +15,8 @@ References:
 - Version: `1.7.0+36`
 - Tag: `android-v1.7.0+36`
 - Title: `Sinoway BMS Mate 1.7.0+36`
-- APK: `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk`
-- SHA-256 file: `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk.sha256`
+- APK: `downloads/android/Sinoway BMS Mate 1.7.0+36.apk`
+- SHA-256 file: `downloads/android/Sinoway BMS Mate 1.7.0+36.apk.sha256`
 - SHA-256: `66f062f2052717d41dc97d07ae0b2936177b56e58c36f0102a6d45f8a87d8ce6`
 - Size: `20140267` bytes
 
@@ -35,8 +35,8 @@ download URL and keeps the GitHub Release asset as the backup mirror.
 6. Set the title to `Sinoway BMS Mate 1.7.0+36`.
 7. Paste the body from `docs/release-notes/android-v1.7.0+36.md`.
 8. Attach these two files:
-   - `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk`
-   - `downloads/android/sinoway-bms-link-android-v1.7.0+36.apk.sha256`
+   - `downloads/android/Sinoway BMS Mate 1.7.0+36.apk`
+   - `downloads/android/Sinoway BMS Mate 1.7.0+36.apk.sha256`
 9. Publish the release.
 10. Copy the Gitee attachment download URL and test it in a logged-out browser
     or with `Invoke-WebRequest`.
@@ -71,6 +71,8 @@ Create or reuse the release and upload assets:
 ```
 
 The script defaults the Gitee release title to `Sinoway BMS Mate <version>`.
+It also defaults the public APK attachment name to
+`Sinoway BMS Mate <version>.apk`.
 Use the same title when creating the mirrored GitHub Release, for example:
 
 ```powershell
@@ -86,3 +88,8 @@ Use PowerShell `-WhatIf` first if you only want to preview the API action:
 After upload, verify anonymous download before changing any manifest URL. Gitee
 currently normalizes `+` to a space in uploaded attachment file names, so always
 use the actual `browser_download_url` returned by Gitee.
+
+Keep `apkFileName` in the update manifest as the legacy
+`sinoway-bms-link-android-v<version>.apk` cache name for compatibility with
+already-installed App versions; it does not need to match the public attachment
+name in `downloadUrl`.

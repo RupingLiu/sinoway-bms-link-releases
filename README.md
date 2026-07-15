@@ -18,7 +18,7 @@
 ### 下载与安装
 
 1. 打开 Gitee 发行版页面下载 APK；如 Gitee 不可用，可改用 GitHub Releases 备份入口。
-2. 下载最新的 `sinoway-bms-link-android-*.apk`。
+2. 下载最新的 `Sinoway BMS Mate <版本号>.apk`。
 3. 在 Android 设备上安装 APK。
 4. 如系统提示“安装未知来源应用”，请仅在确认来源为本仓库时授权。
 
@@ -63,7 +63,7 @@ Gitee 的“发行版”不会因为 push tag 自动出现，需要单独创建�
 ### 下載與安裝
 
 1. 開啟 Gitee 發行版頁面下載 APK；如 Gitee 不可用，可改用 GitHub Releases 備份入口。
-2. 下載最新的 `sinoway-bms-link-android-*.apk`。
+2. 下載最新的 `Sinoway BMS Mate <版本號>.apk`。
 3. 在 Android 裝置上安裝 APK。
 4. 如系統提示「安裝未知來源應用」，請只在確認來源為本倉庫時授權。
 
@@ -108,7 +108,7 @@ Release endpoints:
 ### Download and Installation
 
 1. Open the Gitee Releases page to download the APK. If Gitee is unavailable, use the GitHub Releases backup endpoint.
-2. Download the latest `sinoway-bms-link-android-*.apk`.
+2. Download the latest `Sinoway BMS Mate <version>.apk`.
 3. Install the APK on an Android device.
 4. If Android asks for permission to install unknown apps, allow it only after confirming this repository is the source.
 

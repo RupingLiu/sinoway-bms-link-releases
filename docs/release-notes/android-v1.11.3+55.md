@@ -23,7 +23,7 @@
 
 ## Assets
 
-- APK: `sinoway-bms-link-android-v1.11.3+55.apk`
+- APK: `Sinoway BMS Mate 1.11.3+55.apk`
 - Size: `20665179` bytes
 - SHA-256: `62c3cc127c786f7f14902be8ad7ba01cd5a433016585049dc466355f41da4931`
 
