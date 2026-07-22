@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T14:26:45+08:00",
+  "generatedAt": "2026-07-22T18:07:41+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-15T14:26:45+08:00",
+      "generatedAt": "2026-07-22T18:07:41+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.11.3",
-      "versionCode": 55,
-      "displayVersion": "1.11.3+55",
-      "releaseTag": "android-v1.11.3+55",
-      "apkFileName": "sinoway-bms-link-android-v1.11.3+55.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.3+55/Sinoway%20BMS%20Mate%201.11.3%2055.apk",
+      "versionName": "1.12.0",
+      "versionCode": 56,
+      "displayVersion": "1.12.0+56",
+      "releaseTag": "android-v1.12.0+56",
+      "apkFileName": "sinoway-bms-link-android-v1.12.0+56.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.0+56/Sinoway%20BMS%20Mate%201.12.0%2056.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.11.3+55/Sinoway%20BMS%20Mate%201.11.3%2055.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.0+56/Sinoway%20BMS%20Mate%201.12.0%2056.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.11.3%2B55/Sinoway.BMS.Mate.1.11.3%2B55.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.0%2B56/Sinoway.BMS.Mate.1.12.0%2B56.apk"
         }
       ],
-      "sha256": "62c3cc127c786f7f14902be8ad7ba01cd5a433016585049dc466355f41da4931",
-      "sizeBytes": 20665179,
+      "sha256": "ac42bb75f05e1d12d16aa5a7c054d6cbc4a42eed436d56320aad8aceb0667894",
+      "sizeBytes": 20980757,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "云端设备数据新增电池状态；总览、设备列表和设备详情可显示充电、放电或静置。统一设备状态布局，并优化长编号、型号和客户/站点信息显示，避免截断或换行。",
-        "zh-Hant": "雲端設備資料新增電池狀態；總覽、設備清單和設備詳情可顯示充電、放電或靜置。統一設備狀態版面，並最佳化長編號、型號和客戶/站點資訊顯示，避免截斷或換行。",
-        "en": "Cloud device data now includes the battery operating state, displayed as charging, discharging, or idle across Overview, Devices, and Device Detail. Device status layout and long identifier, model, and customer/site text were refined to avoid truncation and wrapping."
+        "zh-Hans": "新增云平台历史曲线入口，横屏展示原有云端曲线；会话失效时提示重新登录 APP。优化设备目录、定位与统计数据加载，地图页改为更紧凑清晰的设备摘要和操作入口。",
+        "zh-Hant": "新增雲端歷史曲線入口，橫向顯示原有雲端曲線；工作階段失效時提示重新登入 APP。最佳化裝置目錄、定位與統計資料載入，地圖頁改為更緊湊清晰的裝置摘要和操作入口。",
+        "en": "Added a landscape cloud historical-curve entry with an in-app re-login prompt for expired sessions. Improved device catalog, location, and statistics loading, and made the Map card more compact and easier to act on."
       }
     },
     "ios": {
