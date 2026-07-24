@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T14:02:05+08:00",
+  "generatedAt": "2026-07-24T16:17:43+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-23T14:02:05+08:00",
+      "generatedAt": "2026-07-24T16:17:43+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.12.1",
-      "versionCode": 57,
-      "displayVersion": "1.12.1+57",
-      "releaseTag": "android-v1.12.1+57",
-      "apkFileName": "sinoway-bms-link-android-v1.12.1+57.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.1+57/Sinoway%20BMS%20Mate%201.12.1%2057.apk",
+      "versionName": "1.12.2",
+      "versionCode": 58,
+      "displayVersion": "1.12.2+58",
+      "releaseTag": "android-v1.12.2+58",
+      "apkFileName": "sinoway-bms-link-android-v1.12.2+58.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.2+58/Sinoway%20BMS%20Mate%201.12.2%2058.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.1+57/Sinoway%20BMS%20Mate%201.12.1%2057.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.2+58/Sinoway%20BMS%20Mate%201.12.2%2058.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.1%2B57/Sinoway.BMS.Mate.1.12.1%2B57.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.2%2B58/Sinoway.BMS.Mate.1.12.2%2B58.apk"
         }
       ],
-      "sha256": "15b514f9044841f8baaec592d70e6425044377f79be259bb3cbcb0cf222b6abe",
-      "sizeBytes": 21046289,
+      "sha256": "c66071e1c0c2971d1fde4d8ce15148d41bf1fa89421b7ab93067a3656ba9fddf",
+      "sizeBytes": 20980721,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "设备详情的状态、单体和控制页前台每 15 秒只读更新，支持下拉立即刷新；修复账号切换后的旧筛选残留，告警项可直接进入对应设备详情。",
-        "zh-Hant": "裝置詳情的狀態、單體和控制頁前景每 15 秒唯讀更新，支援下拉立即重新整理；修正切換帳號後舊篩選殘留，告警項可直接進入對應裝置詳情。",
-        "en": "Status, Cells, and Control refresh read-only data every 15 seconds while visible and support pull-to-refresh. Fixed stale filters after account changes, and alarm items can open their matching device details."
+        "zh-Hans": "统一总览、设备、告警和地图的设备与分组统计口径；设备故障仅依据云端未处理告警，告警未同步时显示未知；优化历史曲线横屏展示与蓝牙告警来源标识。",
+        "zh-Hant": "統一總覽、裝置、告警和地圖的裝置與群組統計口徑；裝置故障僅依據雲端未處理告警，告警未同步時顯示未知；最佳化歷史曲線橫向展示與藍牙告警來源標示。",
+        "en": "Unified device and group statistics across core screens. Device faults now come only from unresolved cloud alarms, remain unknown while syncing, and the history-curve and Bluetooth alarm source presentation are improved."
       }
     },
     "ios": {
