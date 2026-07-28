@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T12:43:20+08:00",
+  "generatedAt": "2026-07-28T15:48:24+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-28T12:43:20+08:00",
+      "generatedAt": "2026-07-28T15:48:24+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.12.3",
-      "versionCode": 59,
-      "displayVersion": "1.12.3+59",
-      "releaseTag": "android-v1.12.3+59",
-      "apkFileName": "sinoway-bms-link-android-v1.12.3+59.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.3+59/Sinoway%20BMS%20Mate%201.12.3%2059.apk",
+      "versionName": "1.12.4",
+      "versionCode": 60,
+      "displayVersion": "1.12.4+60",
+      "releaseTag": "android-v1.12.4+60",
+      "apkFileName": "sinoway-bms-link-android-v1.12.4+60.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.4+60/Sinoway%20BMS%20Mate%201.12.4%2060.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.3+59/Sinoway%20BMS%20Mate%201.12.3%2059.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.4+60/Sinoway%20BMS%20Mate%201.12.4%2060.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.3%2B59/Sinoway.BMS.Mate.1.12.3%2B59.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.4%2B60/Sinoway.BMS.Mate.1.12.4%2B60.apk"
         }
       ],
-      "sha256": "b7203de5089853720ee33de44cb9b8ff8e9d4c8666f30b5ba9ab23d87b8af69f",
-      "sizeBytes": 21005329,
+      "sha256": "7d6adceec56d016c1f1a875d599c1e0359c0ef05c7ff9c6b787384c8f8543194",
+      "sizeBytes": 21084157,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "全面焕新界面视觉：指标改为大数字与等宽字体，状态标识统一为圆点，移除彩色图标底盘；恢复公司 Logo 展示；地图操作改为文字按钮，天地图署名移至左下角；优化「我的」账号卡布局与设备、告警列表的图标对齐。",
-        "zh-Hant": "全面煥新介面視覺：指標改為大數字與等寬字體，狀態標識統一為圓點，移除彩色圖示底盤；恢復公司 Logo 展示；地圖操作改為文字按鈕，天地圖署名移至左下角；優化「我的」帳號卡版面與裝置、告警列表的圖示對齊。",
-        "en": "Refreshed the interface: metrics use large tabular numerals, status indicators become simple dots, and colored icon tiles are removed. Restored the company logo, switched map actions to text buttons, moved the map attribution to the lower-left, and improved the profile account card plus device and alarm list alignment."
+        "zh-Hans": "修复鸿蒙卓易通环境安装后首次启动时底部导航栏显示黑色的问题；应用更新提示改版：下载完成后弹出一次含版本说明的对话框，常驻提示改为底部深色浮动条；补齐自适应桌面图标，修复鸿蒙桌面图标不满幅、边沿残留底色。",
+        "zh-Hant": "修復鴻蒙卓易通環境安裝後首次啟動時底部導覽列顯示黑色的問題；應用更新提示改版：下載完成後彈出一次含版本說明的對話框，常駐提示改為底部深色浮動條；補齊自適應桌面圖示，修復鴻蒙桌面圖示不滿幅、邊沿殘留底色。",
+        "en": "Fixed the black system navigation bar on first cold start under HarmonyOS compatibility environments; revamped the update prompt with a one-time release-notes dialog and a dark floating bottom bar; added adaptive launcher icons so the icon renders edge-to-edge on HarmonyOS home screens."
       }
     },
     "ios": {
