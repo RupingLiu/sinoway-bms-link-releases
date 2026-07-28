@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T15:48:24+08:00",
+  "generatedAt": "2026-07-28T17:31:54+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-28T15:48:24+08:00",
+      "generatedAt": "2026-07-28T17:31:54+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.12.4",
-      "versionCode": 60,
-      "displayVersion": "1.12.4+60",
-      "releaseTag": "android-v1.12.4+60",
-      "apkFileName": "sinoway-bms-link-android-v1.12.4+60.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.4+60/Sinoway%20BMS%20Mate%201.12.4%2060.apk",
+      "versionName": "1.12.5",
+      "versionCode": 61,
+      "displayVersion": "1.12.5+61",
+      "releaseTag": "android-v1.12.5+61",
+      "apkFileName": "sinoway-bms-link-android-v1.12.5+61.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.5+61/Sinoway%20BMS%20Mate%201.12.5%2061.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.4+60/Sinoway%20BMS%20Mate%201.12.4%2060.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.5+61/Sinoway%20BMS%20Mate%201.12.5%2061.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.4%2B60/Sinoway.BMS.Mate.1.12.4%2B60.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.5%2B61/Sinoway.BMS.Mate.1.12.5%2B61.apk"
         }
       ],
-      "sha256": "7d6adceec56d016c1f1a875d599c1e0359c0ef05c7ff9c6b787384c8f8543194",
+      "sha256": "716c93e892fdc504e349c13f824b43e96a00256b0600b386ce90eba175eee04e",
       "sizeBytes": 21084157,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复鸿蒙卓易通环境安装后首次启动时底部导航栏显示黑色的问题；应用更新提示改版：下载完成后弹出一次含版本说明的对话框，常驻提示改为底部深色浮动条；补齐自适应桌面图标，修复鸿蒙桌面图标不满幅、边沿残留底色。",
-        "zh-Hant": "修復鴻蒙卓易通環境安裝後首次啟動時底部導覽列顯示黑色的問題；應用更新提示改版：下載完成後彈出一次含版本說明的對話框，常駐提示改為底部深色浮動條；補齊自適應桌面圖示，修復鴻蒙桌面圖示不滿幅、邊沿殘留底色。",
-        "en": "Fixed the black system navigation bar on first cold start under HarmonyOS compatibility environments; revamped the update prompt with a one-time release-notes dialog and a dark floating bottom bar; added adaptive launcher icons so the icon renders edge-to-edge on HarmonyOS home screens."
+        "zh-Hans": "修复从总览页「设备总数」卡片进入设备列表时，状态筛选未重置为「全部」的问题。",
+        "zh-Hant": "修復從總覽頁「裝置總數」卡片進入裝置清單時，狀態篩選未重設為「全部」的問題。",
+        "en": "Fixed the status filter not resetting to \"All\" when opening the device list from the Overview \"Total Devices\" card."
       }
     },
     "ios": {
