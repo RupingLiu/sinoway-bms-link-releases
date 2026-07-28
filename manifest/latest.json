@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T16:17:43+08:00",
+  "generatedAt": "2026-07-28T12:43:20+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-24T16:17:43+08:00",
+      "generatedAt": "2026-07-28T12:43:20+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.12.2",
-      "versionCode": 58,
-      "displayVersion": "1.12.2+58",
-      "releaseTag": "android-v1.12.2+58",
-      "apkFileName": "sinoway-bms-link-android-v1.12.2+58.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.2+58/Sinoway%20BMS%20Mate%201.12.2%2058.apk",
+      "versionName": "1.12.3",
+      "versionCode": 59,
+      "displayVersion": "1.12.3+59",
+      "releaseTag": "android-v1.12.3+59",
+      "apkFileName": "sinoway-bms-link-android-v1.12.3+59.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.3+59/Sinoway%20BMS%20Mate%201.12.3%2059.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.2+58/Sinoway%20BMS%20Mate%201.12.2%2058.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.3+59/Sinoway%20BMS%20Mate%201.12.3%2059.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.2%2B58/Sinoway.BMS.Mate.1.12.2%2B58.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.3%2B59/Sinoway.BMS.Mate.1.12.3%2B59.apk"
         }
       ],
-      "sha256": "c66071e1c0c2971d1fde4d8ce15148d41bf1fa89421b7ab93067a3656ba9fddf",
-      "sizeBytes": 20980721,
+      "sha256": "b7203de5089853720ee33de44cb9b8ff8e9d4c8666f30b5ba9ab23d87b8af69f",
+      "sizeBytes": 21005329,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "统一总览、设备、告警和地图的设备与分组统计口径；设备故障仅依据云端未处理告警，告警未同步时显示未知；优化历史曲线横屏展示与蓝牙告警来源标识。",
-        "zh-Hant": "統一總覽、裝置、告警和地圖的裝置與群組統計口徑；裝置故障僅依據雲端未處理告警，告警未同步時顯示未知；最佳化歷史曲線橫向展示與藍牙告警來源標示。",
-        "en": "Unified device and group statistics across core screens. Device faults now come only from unresolved cloud alarms, remain unknown while syncing, and the history-curve and Bluetooth alarm source presentation are improved."
+        "zh-Hans": "全面焕新界面视觉：指标改为大数字与等宽字体，状态标识统一为圆点，移除彩色图标底盘；恢复公司 Logo 展示；地图操作改为文字按钮，天地图署名移至左下角；优化「我的」账号卡布局与设备、告警列表的图标对齐。",
+        "zh-Hant": "全面煥新介面視覺：指標改為大數字與等寬字體，狀態標識統一為圓點，移除彩色圖示底盤；恢復公司 Logo 展示；地圖操作改為文字按鈕，天地圖署名移至左下角；優化「我的」帳號卡版面與裝置、告警列表的圖示對齊。",
+        "en": "Refreshed the interface: metrics use large tabular numerals, status indicators become simple dots, and colored icon tiles are removed. Restored the company logo, switched map actions to text buttons, moved the map attribution to the lower-left, and improved the profile account card plus device and alarm list alignment."
       }
     },
     "ios": {
