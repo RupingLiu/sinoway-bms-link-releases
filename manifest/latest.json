@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T17:31:54+08:00",
+  "generatedAt": "2026-07-30T00:38:25+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-28T17:31:54+08:00",
+      "generatedAt": "2026-07-30T00:38:25+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.12.5",
-      "versionCode": 61,
-      "displayVersion": "1.12.5+61",
-      "releaseTag": "android-v1.12.5+61",
-      "apkFileName": "sinoway-bms-link-android-v1.12.5+61.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.5+61/Sinoway%20BMS%20Mate%201.12.5%2061.apk",
+      "versionName": "1.12.6",
+      "versionCode": 62,
+      "displayVersion": "1.12.6+62",
+      "releaseTag": "android-v1.12.6+62",
+      "apkFileName": "sinoway-bms-link-android-v1.12.6+62.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.6+62/Sinoway%20BMS%20Mate%201.12.6%2062.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.5+61/Sinoway%20BMS%20Mate%201.12.5%2061.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.6+62/Sinoway%20BMS%20Mate%201.12.6%2062.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.5%2B61/Sinoway.BMS.Mate.1.12.5%2B61.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.6%2B62/Sinoway.BMS.Mate.1.12.6%2B62.apk"
         }
       ],
-      "sha256": "716c93e892fdc504e349c13f824b43e96a00256b0600b386ce90eba175eee04e",
-      "sizeBytes": 21084157,
+      "sha256": "11d0782c34af39194f1be00843fd98b7d12935d6b7d118e84513b91d7811bf00",
+      "sizeBytes": 21149721,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复从总览页「设备总数」卡片进入设备列表时，状态筛选未重置为「全部」的问题。",
-        "zh-Hant": "修復從總覽頁「裝置總數」卡片進入裝置清單時，狀態篩選未重設為「全部」的問題。",
-        "en": "Fixed the status filter not resetting to \"All\" when opening the device list from the Overview \"Total Devices\" card."
+        "zh-Hans": "修复云端及蓝牙参数的字符换算与高低段拼接；优化参数分组、保护参数二级分类和长内容显示；单位统一显示在参数名称后，电池类型使用文字枚举，BMS号显示为十六进制，并明确MOS断开/闭合及只读字段权限。",
+        "zh-Hant": "修復雲端及藍牙參數的字元轉換與高低段拼接；最佳化參數分組、保護參數次級分類及長內容顯示；單位統一顯示在參數名稱後，電池類型使用文字列舉，BMS號顯示為十六進位，並明確MOS斷開/閉合及唯讀欄位權限。",
+        "en": "Fixed cloud and Bluetooth parameter decoding and high/low register aggregation; improved parameter grouping, protection subcategories, and long-value display; moved units to parameter names, added battery-type labels and hexadecimal BMS numbers, and clarified MOS Open/Close actions and read-only fields."
       }
     },
     "ios": {
