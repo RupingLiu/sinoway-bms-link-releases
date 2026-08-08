@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T00:38:25+08:00",
+  "generatedAt": "2026-08-08T15:38:38+08:00",
   "platforms": {
     "android": {
       "schemaVersion": 1,
-      "generatedAt": "2026-07-30T00:38:25+08:00",
+      "generatedAt": "2026-08-08T15:38:38+08:00",
       "platform": "android",
       "status": "available",
       "channel": "internal",
-      "versionName": "1.12.6",
-      "versionCode": 62,
-      "displayVersion": "1.12.6+62",
-      "releaseTag": "android-v1.12.6+62",
-      "apkFileName": "sinoway-bms-link-android-v1.12.6+62.apk",
-      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.6+62/Sinoway%20BMS%20Mate%201.12.6%2062.apk",
+      "versionName": "1.12.7",
+      "versionCode": 63,
+      "displayVersion": "1.12.7+63",
+      "releaseTag": "android-v1.12.7+63",
+      "apkFileName": "sinoway-bms-link-android-v1.12.7+63.apk",
+      "downloadUrl": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.7+63/Sinoway%20BMS%20Mate%201.12.7%2063.apk",
       "downloadMirrors": [
         {
           "name": "gitee",
-          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.6+62/Sinoway%20BMS%20Mate%201.12.6%2062.apk"
+          "url": "https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/download/android-v1.12.7+63/Sinoway%20BMS%20Mate%201.12.7%2063.apk"
         },
         {
           "name": "github",
-          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.6%2B62/Sinoway.BMS.Mate.1.12.6%2B62.apk"
+          "url": "https://github.com/RupingLiu/sinoway-bms-link-releases/releases/download/android-v1.12.7%2B63/Sinoway.BMS.Mate.1.12.7%2B63.apk"
         }
       ],
-      "sha256": "11d0782c34af39194f1be00843fd98b7d12935d6b7d118e84513b91d7811bf00",
-      "sizeBytes": 21149721,
+      "sha256": "1e8e20961ef08066a36aa392517958f94e087eab4254baac54c18442bb544a1d",
+      "sizeBytes": 21215261,
       "minAndroidSdk": 24,
       "isApkDownloadEnabled": true,
       "isMandatory": false,
       "releaseNotes": {
-        "zh-Hans": "修复云端及蓝牙参数的字符换算与高低段拼接；优化参数分组、保护参数二级分类和长内容显示；单位统一显示在参数名称后，电池类型使用文字枚举，BMS号显示为十六进制，并明确MOS断开/闭合及只读字段权限。",
-        "zh-Hant": "修復雲端及藍牙參數的字元轉換與高低段拼接；最佳化參數分組、保護參數次級分類及長內容顯示；單位統一顯示在參數名稱後，電池類型使用文字列舉，BMS號顯示為十六進位，並明確MOS斷開/閉合及唯讀欄位權限。",
-        "en": "Fixed cloud and Bluetooth parameter decoding and high/low register aggregation; improved parameter grouping, protection subcategories, and long-value display; moved units to parameter names, added battery-type labels and hexadecimal BMS numbers, and clarified MOS Open/Close actions and read-only fields."
+        "zh-Hans": "补齐简体中文、繁体中文和英文文本；修复切换英文后云端参数、告警、历史记录、地图和蓝牙协议文字仍显示中文的问题；未知技术名称安全回退到编码或地址，并新增三语完整性与真机回归验证。",
+        "zh-Hant": "補齊簡體中文、繁體中文及英文文字；修復切換英文後雲端參數、告警、歷史記錄、地圖及藍牙協議文字仍顯示中文的問題；未知技術名稱安全回退至編碼或位址，並新增三語完整性與實機回歸驗證。",
+        "en": "Completed Simplified Chinese, Traditional Chinese, and English coverage across cloud parameters, alarms, history, maps, and Bluetooth protocol text; unknown technical labels now fall back safely to codes or addresses, with new localization integrity and physical-device regression checks."
       }
     },
     "ios": {

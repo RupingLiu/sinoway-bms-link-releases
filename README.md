@@ -32,12 +32,12 @@
 
 | 平台 | 版本 | 主下载 | 备用下载 |
 | --- | --- | --- | --- |
-| Android 7.0+ | **1.12.2+58** | [Gitee 发行版](https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/tag/android-v1.12.2%2B58) | [GitHub Release](https://github.com/RupingLiu/sinoway-bms-link-releases/releases/tag/android-v1.12.2%2B58) |
+| Android 7.0+ | **1.12.7+63** | [Gitee 发行版](https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/tag/android-v1.12.7%2B63) | [GitHub Release](https://github.com/RupingLiu/sinoway-bms-link-releases/releases/tag/android-v1.12.7%2B63) |
 
 APK SHA-256：
 
 ```text
-c66071e1c0c2971d1fde4d8ce15148d41bf1fa89421b7ab93067a3656ba9fddf
+1e8e20961ef08066a36aa392517958f94e087eab4254baac54c18442bb544a1d
 ```
 
 ### 平台状态
@@ -79,7 +79,7 @@ c66071e1c0c2971d1fde4d8ce15148d41bf1fa89421b7ab93067a3656ba9fddf
 
 | 平台 | 版本 | 主要下載 | 備用下載 |
 | --- | --- | --- | --- |
-| Android 7.0+ | **1.12.2+58** | [Gitee 發行版](https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/tag/android-v1.12.2%2B58) | [GitHub Release](https://github.com/RupingLiu/sinoway-bms-link-releases/releases/tag/android-v1.12.2%2B58) |
+| Android 7.0+ | **1.12.7+63** | [Gitee 發行版](https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/tag/android-v1.12.7%2B63) | [GitHub Release](https://github.com/RupingLiu/sinoway-bms-link-releases/releases/tag/android-v1.12.7%2B63) |
 
 ### 平台狀態
 
@@ -113,7 +113,7 @@ This is the official release repository for **Sinoway BMS Mate**. It provides An
 
 | Platform | Version | Primary download | Backup download |
 | --- | --- | --- | --- |
-| Android 7.0+ | **1.12.2+58** | [Gitee Release](https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/tag/android-v1.12.2%2B58) | [GitHub Release](https://github.com/RupingLiu/sinoway-bms-link-releases/releases/tag/android-v1.12.2%2B58) |
+| Android 7.0+ | **1.12.7+63** | [Gitee Release](https://gitee.com/rupingliu/sinoway-bms-link-releases/releases/tag/android-v1.12.7%2B63) | [GitHub Release](https://github.com/RupingLiu/sinoway-bms-link-releases/releases/tag/android-v1.12.7%2B63) |
 
 ### Platform availability
 
